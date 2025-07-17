@@ -1,0 +1,11 @@
+framework module DigioCaptureKit {
+  umbrella header "DigioCaptureKit.h"
+  export *
+
+  module * { export * }
+}
+
+module DigioCaptureKit.Swift {
+  header "DigioCaptureKit-Swift.h"
+  requires objc
+}
