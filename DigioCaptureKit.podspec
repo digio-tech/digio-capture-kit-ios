@@ -14,6 +14,9 @@ Pod::Spec.new do |spec|
     spec.vendored_frameworks = 'DigioCaptureKit.xcframework'
     spec.dependency 'GoogleMLKit/FaceDetection'
 
+    spec.pod_target_xcconfig = {
+         'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
 end
 
 
