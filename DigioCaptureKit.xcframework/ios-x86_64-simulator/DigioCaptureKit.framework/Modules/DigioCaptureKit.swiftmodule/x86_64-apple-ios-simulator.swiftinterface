@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
-// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -enable-bare-slash-regex -module-name DigioCaptureKit
+// swift-module-flags: -target x86_64-apple-ios15.6-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name DigioCaptureKit
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Accelerate
@@ -35,7 +35,13 @@ public class Facefy {
   public func detect(_ image: UIKit.UIImage, _ minFaceWidth: CoreFoundation.CGFloat, onSuccess: @escaping (DigioCaptureKit.FaceDetected?) -> Swift.Void, onError: @escaping (Swift.String) -> Swift.Void)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class CameraConfig {
+public class CameraConfig {
+  public var baseUrl: Swift.String?
+  public var clientId: Swift.String?
+  public var clientSecret: Swift.String?
+  public var isStatelssFlow: Swift.Bool
+  public var token: Swift.String?
+  public init()
   @objc deinit
 }
 public enum KeyError : Swift.String {
@@ -106,7 +112,7 @@ public enum PermissionStatus {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class PreviewLauncher {
-  public static func launchPreview(from viewController: UIKit.UIViewController, image: UIKit.UIImage, imagePath: Swift.String, environment: Swift.String, clientId: Swift.String, secretKey: Swift.String, onComplete: @escaping () -> Swift.Void, onRetake: @escaping () -> Swift.Void)
+  public static func launchPreview(from viewController: UIKit.UIViewController, image: UIKit.UIImage, imagePath: Swift.String, environment: Swift.String, clientId: Swift.String, secretKey: Swift.String, token: Swift.String, onComplete: @escaping () -> Swift.Void, onRetake: @escaping () -> Swift.Void)
   @objc deinit
 }
 @objc @_inheritsConvenienceInitializers final public class PermissionManager : ObjectiveC.NSObject {

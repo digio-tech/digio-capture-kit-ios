@@ -70,11 +70,11 @@
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		F2mdfdQAlAMrCL8m+rsjNHY9180=
+		y571x2xyfpVl0ejCxM9j4bvOlco=
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		DYCxL3LzEJ+bVlZGWjIMgP8JNpY=
+		CiERRgPvx2ihi7RSi9PVHQYmTLw=
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -82,11 +82,11 @@
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		DYCxL3LzEJ+bVlZGWjIMgP8JNpY=
+		CiERRgPvx2ihi7RSi9PVHQYmTLw=
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		KmW6eqPwF+F8uNOJO7tqi5vAapw=
+		LqJMs8153vgNvBG7ThrS/XHttWw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -208,14 +208,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xJqyaxXXIxIZ36NoX7ipvtZAYowMMPmJzm1l49fvB7o=
+			qh00SqxRcpT9JY9tgzxcD52NvPuc42GGzaWW4P33Gbw=
 			</data>
 		</dict>
 		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GBBU1/gsbj/NB169hc+KWSMajXT2/sWPtw6oDtEu5ms=
+			42Iq+3di/AUcOjik/8siSWyiZlinLTSUTZ6Ta1xD6y4=
 			</data>
 		</dict>
 		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -229,14 +229,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GBBU1/gsbj/NB169hc+KWSMajXT2/sWPtw6oDtEu5ms=
+			42Iq+3di/AUcOjik/8siSWyiZlinLTSUTZ6Ta1xD6y4=
 			</data>
 		</dict>
 		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rWD3E6GdEEQQR5MDeoDwBfWXg7R4/9Ce2hD9LMDQc4E=
+			5CCrRna0Unwtzkr/PQGhVqkFawG4qohYGjLmVASRcD8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
