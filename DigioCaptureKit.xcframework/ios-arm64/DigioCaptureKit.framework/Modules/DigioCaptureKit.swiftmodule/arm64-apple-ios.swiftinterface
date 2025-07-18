@@ -68,6 +68,7 @@ public enum KeyError : Swift.String {
 }
 @_hasMissingDesignatedInitializers public class CameraLauncher {
   public static func present(from parent: UIKit.UIViewController, mode: DigioCaptureKit.CameraMode, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, completion: @escaping (Swift.String?, UIKit.UIImage) -> Swift.Void)
+  public static func present(from parent: UIKit.UIViewController, mode: DigioCaptureKit.CameraMode, config: DigioCaptureKit.CameraConfig?, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, completion: @escaping (Swift.String?, UIKit.UIImage) -> Swift.Void)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DigiFacefyController {

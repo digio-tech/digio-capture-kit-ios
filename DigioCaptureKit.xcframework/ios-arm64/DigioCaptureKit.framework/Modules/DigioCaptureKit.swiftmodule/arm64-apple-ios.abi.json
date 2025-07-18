@@ -2729,6 +2729,105 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(from:mode:config:isImagePreview:shouldShowSwitchCameraButton:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CameraMode",
+                "printedName": "DigioCaptureKit.CameraMode",
+                "usr": "s:15DigioCaptureKit10CameraModeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DigioCaptureKit.CameraConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CameraConfig",
+                    "printedName": "DigioCaptureKit.CameraConfig",
+                    "usr": "s:15DigioCaptureKit12CameraConfigC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String?, UIKit.UIImage) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String?, UIKit.UIImage)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.String?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DigioCaptureKit14CameraLauncherC7present4from4mode6config14isImagePreview016shouldShowSwitchD6Button10completionySo16UIViewControllerC_AA0D4ModeOAA0D6ConfigCSgS2bySSSg_So7UIImageCtctFZ",
+            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode6config14isImagePreview016shouldShowSwitchD6Button10completionySo16UIViewControllerC_AA0D4ModeOAA0D6ConfigCSgS2bySSSg_So7UIImageCtctFZ",
+            "moduleName": "DigioCaptureKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
