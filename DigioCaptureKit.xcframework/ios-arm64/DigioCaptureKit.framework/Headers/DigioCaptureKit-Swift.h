@@ -565,6 +565,13 @@ SWIFT_CLASS("_TtC15DigioCaptureKit17PermissionManager")
 @end
 
 
+SWIFT_CLASS("_TtC15DigioCaptureKit15PreviewLauncher")
+@interface PreviewLauncher : NSObject
++ (void)launchPreviewFrom:(UIViewController * _Nonnull)viewController image:(UIImage * _Nonnull)image imagePath:(NSString * _Nonnull)imagePath environment:(NSString * _Nonnull)environment clientId:(NSString * _Nonnull)clientId secretKey:(NSString * _Nonnull)secretKey token:(NSString * _Nonnull)token onComplete:(void (^ _Nonnull)(void))onComplete onRetake:(void (^ _Nonnull)(void))onRetake;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
 #endif
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop

@@ -4408,25 +4408,58 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:15DigioCaptureKit15PreviewLauncherC06launchD04from5image0H4Path11environment8clientId9secretKey5token10onComplete0P6RetakeySo16UIViewControllerC_So7UIImageCS5SyycyyctFZ",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)PreviewLauncher(cm)launchPreviewFrom:image:imagePath:environment:clientId:secretKey:token:onComplete:onRetake:",
             "mangledName": "$s15DigioCaptureKit15PreviewLauncherC06launchD04from5image0H4Path11environment8clientId9secretKey5token10onComplete0P6RetakeySo16UIViewControllerC_So7UIImageCS5SyycyyctFZ",
             "moduleName": "DigioCaptureKit",
             "static": true,
+            "objc_name": "launchPreviewFrom:image:imagePath:environment:clientId:secretKey:token:onComplete:onRetake:",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PreviewLauncher",
+                "printedName": "DigioCaptureKit.PreviewLauncher",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)PreviewLauncher"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)PreviewLauncher(im)init",
+            "mangledName": "$s15DigioCaptureKit15PreviewLauncherCACycfc",
+            "moduleName": "DigioCaptureKit",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
-        "usr": "s:15DigioCaptureKit15PreviewLauncherC",
+        "usr": "c:@M@DigioCaptureKit@objc(cs)PreviewLauncher",
         "mangledName": "$s15DigioCaptureKit15PreviewLauncherC",
         "moduleName": "DigioCaptureKit",
         "declAttributes": [
-          "AccessControl"
+          "AccessControl",
+          "ObjC"
         ],
-        "hasMissingDesignatedInitializers": true,
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
         "conformances": [
           {
             "kind": "Conformance",
@@ -4441,6 +4474,55 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
       },
@@ -8182,966 +8264,966 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiFacefy\/FaceDetected.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiFacefy\/FaceDetected.swift",
       "kind": "Array",
       "offset": 458,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiFacefy\/FaceDetected.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiFacefy\/FaceDetected.swift",
       "kind": "BooleanLiteral",
       "offset": 500,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiFacefy\/FaceDetected.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiFacefy\/FaceDetected.swift",
       "kind": "IntegerLiteral",
       "offset": 542,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
       "kind": "IntegerLiteral",
       "offset": 279,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
       "kind": "IntegerLiteral",
       "offset": 666,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
       "kind": "FloatLiteral",
       "offset": 717,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
       "kind": "BooleanLiteral",
       "offset": 763,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
       "kind": "BooleanLiteral",
       "offset": 814,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
       "kind": "IntegerLiteral",
       "offset": 857,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
       "kind": "IntegerLiteral",
       "offset": 980,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
       "kind": "BooleanLiteral",
       "offset": 888,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 574,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraController.swift",
       "kind": "BooleanLiteral",
       "offset": 1002,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 179,
       "length": 9,
       "value": "\"#F7B748\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 226,
       "length": 9,
       "value": "\"#F4DFD0\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 267,
       "length": 9,
       "value": "\"#9F6D00\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 309,
       "length": 9,
       "value": "\"#66BD50\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 355,
       "length": 9,
       "value": "\"#E2F2D7\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 395,
       "length": 9,
       "value": "\"#136E03\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 438,
       "length": 9,
       "value": "\"#FF3B30\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 481,
       "length": 9,
       "value": "\"#007AFF\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 522,
       "length": 9,
       "value": "\"#F2F7FD\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 567,
       "length": 9,
       "value": "\"#F7F9FC\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 605,
       "length": 9,
       "value": "\"#0261B0\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "FloatLiteral",
       "offset": 754,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
       "kind": "FloatLiteral",
       "offset": 329,
       "length": 6,
       "value": "0.2126"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
       "kind": "FloatLiteral",
       "offset": 377,
       "length": 6,
       "value": "0.7152"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
       "kind": "FloatLiteral",
       "offset": 424,
       "length": 6,
       "value": "0.0722"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
       "kind": "IntegerLiteral",
       "offset": 463,
       "length": 6,
       "value": "0x1000"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
       "kind": "Array",
       "offset": 842,
       "length": 12,
       "value": "[0, 0, 0, 0]"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
       "kind": "IntegerLiteral",
       "offset": 888,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
       "kind": "Array",
       "offset": 937,
       "length": 66,
       "value": "[-1, -1, -1, -1, 8, -1, -1, -1, -1]"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
       "kind": "IntegerLiteral",
       "offset": 1101,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
       "kind": "BooleanLiteral",
       "offset": 299,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 221,
       "length": 22,
       "value": "\"INVALID_CAPTURE_TYPE\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 323,
       "length": 21,
       "value": "\"INVALID_CAMERA_LENS\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 456,
       "length": 26,
       "value": "\"INVALID_NUMBER_OF_IMAGES\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 594,
       "length": 29,
       "value": "\"INVALID_TIME_BETWEEN_IMAGES\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 710,
       "length": 28,
       "value": "\"INVALID_OUTPUT_IMAGE_WIDTH\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 823,
       "length": 29,
       "value": "\"INVALID_OUTPUT_IMAGE_HEIGHT\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 963,
       "length": 29,
       "value": "\"INVALID_DETECTION_BOX_COLOR\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 1086,
       "length": 22,
       "value": "\"INVALID_MINIMUM_SIZE\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 1190,
       "length": 22,
       "value": "\"INVALID_MAXIMUM_SIZE\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 1317,
       "length": 24,
       "value": "\"INVALID_ROI_TOP_OFFSET\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 1442,
       "length": 26,
       "value": "\"INVALID_ROI_RIGHT_OFFSET\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 1571,
       "length": 27,
       "value": "\"INVALID_ROI_BOTTOM_OFFSET\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 1697,
       "length": 25,
       "value": "\"INVALID_ROI_LEFT_OFFSET\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 1836,
       "length": 19,
       "value": "\"INVALID_ROI_COLOR\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
       "kind": "StringLiteral",
       "offset": 1961,
       "length": 29,
       "value": "\"INVALID_FACE_CONTOURS_COLOR\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/VerificationResultViewController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/VerificationResultViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 239,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiFacefy\/DigiFacefyController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiFacefy\/DigiFacefyController.swift",
       "kind": "IntegerLiteral",
       "offset": 620,
       "length": 2,
       "value": "40"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/FileUtils.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/FileUtils.swift",
       "kind": "StringLiteral",
       "offset": 1571,
       "length": 6,
       "value": "\"jpeg\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/FileUtils.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/FileUtils.swift",
       "kind": "FloatLiteral",
       "offset": 1609,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/FileUtils.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/FileUtils.swift",
       "kind": "FloatLiteral",
       "offset": 1992,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraGraphicView.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraGraphicView.swift",
       "kind": "BooleanLiteral",
       "offset": 285,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraGraphicView.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraGraphicView.swift",
       "kind": "Array",
       "offset": 440,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/CameraConstants.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/CameraConstants.swift",
       "kind": "StringLiteral",
       "offset": 150,
       "length": 7,
       "value": "\"1.0.1\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/CameraConstants.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/CameraConstants.swift",
       "kind": "StringLiteral",
       "offset": 193,
       "length": 289,
       "value": "\"{\n  \"features\": [\n    \"FACIAL_FEATURE\",\n    \"FACE_AREA_PERCENTAGE\",\n    \"ALIGNMENT\"\n  ],\n  \"additional_checks\": [\n    \"EYES_CHECK\",\n    \"BLUR_CHECK\",\n    \"MULTIFACE_CHECK\",\n    \"DARKNESS_CHECK\",\n    \"DEEPFAKE_CHECK\"\n  ]\n}\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/CameraConstants.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/CameraConstants.swift",
       "kind": "Dictionary",
       "offset": 534,
       "length": 365,
       "value": "[(\"Liveness detection\", \"PASS\"), (\"Eyes open\", \"PASS\"), (\"Multiple face detected\", \"PASS\"), (\"Deepfake detection\", \"PASS\"), (\"Blur level\", \"PASS\"), (\"Lightning\", \"PASS\"), (\"Mouth\", \"PASS\"), (\"Shoulder\", \"FAIL\"), (\"Eyes\", \"PASS\"), (\"Chin\", \"PASS\"), (\"Nose\", \"PASS\"), (\"Forehead\", \"PASS\")]"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/PaddedLabel.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/PaddedLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 168,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/PaddedLabel.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/PaddedLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 178,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/PaddedLabel.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/PaddedLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 190,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/PaddedLabel.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/PaddedLabel.swift",
       "kind": "IntegerLiteral",
       "offset": 201,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
       "kind": "StringLiteral",
       "offset": 178,
       "length": 48,
       "value": "\"Position your face in the center of the circle\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
       "kind": "StringLiteral",
       "offset": 257,
       "length": 11,
       "value": "\"Back Side\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
       "kind": "StringLiteral",
       "offset": 300,
       "length": 12,
       "value": "\"Front Side\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
       "kind": "StringLiteral",
       "offset": 350,
       "length": 18,
       "value": "\"Capturing Selfie\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
       "kind": "StringLiteral",
       "offset": 404,
       "length": 16,
       "value": "\"Selfie Capture\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
       "kind": "StringLiteral",
       "offset": 460,
       "length": 25,
       "value": "\"Multiple faces detected\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraFlowCoordinator.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraFlowCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 424,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraFlowCoordinator.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraFlowCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 477,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/qrcode\/QRCodeAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/qrcode\/QRCodeAnalyzer.swift",
       "kind": "BooleanLiteral",
       "offset": 361,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/qrcode\/QRCodeAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/qrcode\/QRCodeAnalyzer.swift",
       "kind": "BooleanLiteral",
       "offset": 465,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 240,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 278,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 600,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 643,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
       "offset": 685,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "BooleanLiteral",
       "offset": 250,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "BooleanLiteral",
       "offset": 348,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "FloatLiteral",
       "offset": 448,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "FloatLiteral",
       "offset": 460,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "FloatLiteral",
       "offset": 471,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "FloatLiteral",
       "offset": 483,
       "length": 3,
       "value": "0.4"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "FloatLiteral",
       "offset": 554,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "FloatLiteral",
       "offset": 574,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "FloatLiteral",
       "offset": 593,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "FloatLiteral",
       "offset": 613,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "IntegerLiteral",
       "offset": 721,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "IntegerLiteral",
       "offset": 754,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "IntegerLiteral",
       "offset": 788,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "IntegerLiteral",
       "offset": 820,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/Models\/FaceVerificationResponse.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/Models\/FaceVerificationResponse.swift",
       "kind": "StringLiteral",
       "offset": 361,
       "length": 14,
       "value": "\"check_groups\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/Models\/FaceVerificationResponse.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/Models\/FaceVerificationResponse.swift",
       "kind": "StringLiteral",
       "offset": 426,
       "length": 16,
       "value": "\"overall_passed\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/Models\/FaceVerificationResponse.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/Models\/FaceVerificationResponse.swift",
       "kind": "StringLiteral",
       "offset": 685,
       "length": 18,
       "value": "\"detection_checks\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/Models\/FaceVerificationResponse.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/Models\/FaceVerificationResponse.swift",
       "kind": "StringLiteral",
       "offset": 735,
       "length": 18,
       "value": "\"integrity_checks\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/Models\/FaceVerificationResponse.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/Models\/FaceVerificationResponse.swift",
       "kind": "StringLiteral",
       "offset": 783,
       "length": 16,
       "value": "\"quality_checks\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/Models\/FaceVerificationResponse.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/Models\/FaceVerificationResponse.swift",
       "kind": "StringLiteral",
       "offset": 1064,
       "length": 17,
       "value": "\"facial_features\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CaptureType.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CaptureType.swift",
       "kind": "IntegerLiteral",
       "offset": 158,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CaptureType.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CaptureType.swift",
       "kind": "IntegerLiteral",
       "offset": 176,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CaptureType.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CaptureType.swift",
       "kind": "IntegerLiteral",
       "offset": 196,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CaptureType.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CaptureType.swift",
       "kind": "IntegerLiteral",
       "offset": 215,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/Message.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/Message.swift",
       "kind": "StringLiteral",
       "offset": 259,
       "length": 22,
       "value": "\"INVALID_MINIMUM_SIZE\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/Message.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/Message.swift",
       "kind": "StringLiteral",
       "offset": 409,
       "length": 22,
       "value": "\"INVALID_MAXIMUM_SIZE\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/Message.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/Message.swift",
       "kind": "StringLiteral",
       "offset": 533,
       "length": 20,
       "value": "\"INVALID_OUT_OF_ROI\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/Message.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/Message.swift",
       "kind": "StringLiteral",
       "offset": 642,
       "length": 26,
       "value": "\"INVALID_TORCH_LENS_USAGE\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMode.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMode.swift",
       "kind": "StringLiteral",
       "offset": 153,
       "length": 6,
       "value": "\"none\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMode.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMode.swift",
       "kind": "StringLiteral",
       "offset": 176,
       "length": 6,
       "value": "\"face\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMode.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMode.swift",
       "kind": "StringLiteral",
       "offset": 201,
       "length": 8,
       "value": "\"qrcode\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMode.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMode.swift",
       "kind": "StringLiteral",
       "offset": 227,
       "length": 7,
       "value": "\"frame\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMode.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMode.swift",
       "kind": "StringLiteral",
       "offset": 252,
       "length": 7,
       "value": "\"video\""
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/frame\/FrameAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/frame\/FrameAnalyzer.swift",
       "kind": "IntegerLiteral",
       "offset": 292,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/frame\/FrameAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/frame\/FrameAnalyzer.swift",
       "kind": "BooleanLiteral",
       "offset": 400,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/frame\/FrameAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/frame\/FrameAnalyzer.swift",
       "kind": "IntegerLiteral",
       "offset": 521,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/frame\/FrameAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/frame\/FrameAnalyzer.swift",
       "kind": "BooleanLiteral",
       "offset": 429,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/frame\/FrameAnalyzer.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/frame\/FrameAnalyzer.swift",
       "kind": "IntegerLiteral",
       "offset": 597,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 702,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 803,
       "length": 4,
       "value": "1000"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 898,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 986,
       "length": 3,
       "value": "200"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 1069,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 1159,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 1269,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 1289,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 1308,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 1328,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 1608,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 1880,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 1923,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 1963,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 2004,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 2043,
       "length": 3,
       "value": "0.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "BooleanLiteral",
       "offset": 2103,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 2197,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 2217,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 2236,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "FloatLiteral",
       "offset": 2256,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/akash\/Digio_Projects\/DigioCaptureKit\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
       "kind": "IntegerLiteral",
       "offset": 2305,
       "length": 1,
