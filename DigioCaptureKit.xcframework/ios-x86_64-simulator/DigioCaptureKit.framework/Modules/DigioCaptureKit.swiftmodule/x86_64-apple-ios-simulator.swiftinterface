@@ -35,13 +35,13 @@ public class Facefy {
   public func detect(_ image: UIKit.UIImage, _ minFaceWidth: CoreFoundation.CGFloat, onSuccess: @escaping (DigioCaptureKit.FaceDetected?) -> Swift.Void, onError: @escaping (Swift.String) -> Swift.Void)
   @objc deinit
 }
-public class CameraConfig {
-  public var baseUrl: Swift.String?
-  public var clientId: Swift.String?
-  public var clientSecret: Swift.String?
-  public var isStatelssFlow: Swift.Bool
-  public var token: Swift.String?
-  public init()
+@objc @_inheritsConvenienceInitializers @objcMembers public class CameraConfig : ObjectiveC.NSObject {
+  @objc public var baseUrl: Swift.String?
+  @objc public var clientId: Swift.String?
+  @objc public var clientSecret: Swift.String?
+  @objc public var isStatelssFlow: Swift.Bool
+  @objc public var token: Swift.String?
+  @objc override dynamic public init()
   @objc deinit
 }
 public enum KeyError : Swift.String {
@@ -66,9 +66,10 @@ public enum KeyError : Swift.String {
     get
   }
 }
-@_hasMissingDesignatedInitializers public class CameraLauncher {
-  public static func present(from parent: UIKit.UIViewController, mode: DigioCaptureKit.CameraMode, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, completion: @escaping (Swift.String?, UIKit.UIImage) -> Swift.Void)
-  public static func present(from parent: UIKit.UIViewController, mode: DigioCaptureKit.CameraMode, config: DigioCaptureKit.CameraConfig?, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, completion: @escaping (Swift.String?, UIKit.UIImage) -> Swift.Void)
+@_inheritsConvenienceInitializers @objc public class CameraLauncher : ObjectiveC.NSObject {
+  @objc public static func present(from parent: UIKit.UIViewController, mode: Swift.String, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, completion: @escaping (Foundation.NSString?, UIKit.UIImage) -> Swift.Void)
+  @objc public static func present(from parent: UIKit.UIViewController, mode: Swift.String, config: DigioCaptureKit.CameraConfig?, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, completion: @escaping (Foundation.NSString?, UIKit.UIImage) -> Swift.Void)
+  @objc override dynamic public init()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DigiFacefyController {

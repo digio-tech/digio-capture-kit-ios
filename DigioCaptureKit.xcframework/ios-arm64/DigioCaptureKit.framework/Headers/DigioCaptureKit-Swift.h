@@ -306,6 +306,17 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 
 #if defined(__OBJC__)
 @class NSString;
+
+SWIFT_CLASS("_TtC15DigioCaptureKit12CameraConfig")
+@interface CameraConfig : NSObject
+@property (nonatomic, copy) NSString * _Nullable baseUrl;
+@property (nonatomic, copy) NSString * _Nullable clientId;
+@property (nonatomic, copy) NSString * _Nullable clientSecret;
+@property (nonatomic) BOOL isStatelssFlow;
+@property (nonatomic, copy) NSString * _Nullable token;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class NSNumber;
 
 SWIFT_PROTOCOL("_TtP15DigioCaptureKit27CameraEventListenerDelegate_")
@@ -337,6 +348,16 @@ SWIFT_CLASS("_TtC15DigioCaptureKit17CameraGraphicView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder SWIFT_UNAVAILABLE;
 - (void)drawRect:(CGRect)rect;
 - (void)layoutSubviews;
+@end
+
+@class UIViewController;
+@class UIImage;
+
+SWIFT_CLASS("_TtC15DigioCaptureKit14CameraLauncher")
+@interface CameraLauncher : NSObject
++ (void)presentFrom:(UIViewController * _Nonnull)parent mode:(NSString * _Nonnull)mode isImagePreview:(BOOL)isImagePreview shouldShowSwitchCameraButton:(BOOL)shouldShowSwitchCameraButton completion:(void (^ _Nonnull)(NSString * _Nullable, UIImage * _Nonnull))completion;
++ (void)presentFrom:(UIViewController * _Nonnull)parent mode:(NSString * _Nonnull)mode config:(CameraConfig * _Nullable)config isImagePreview:(BOOL)isImagePreview shouldShowSwitchCameraButton:(BOOL)shouldShowSwitchCameraButton completion:(void (^ _Nonnull)(NSString * _Nullable, UIImage * _Nonnull))completion;
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
 @class UIColor;
