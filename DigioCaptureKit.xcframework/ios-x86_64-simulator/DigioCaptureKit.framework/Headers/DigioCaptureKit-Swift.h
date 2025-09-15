@@ -355,8 +355,8 @@ SWIFT_CLASS("_TtC15DigioCaptureKit17CameraGraphicView")
 
 SWIFT_CLASS("_TtC15DigioCaptureKit14CameraLauncher")
 @interface CameraLauncher : NSObject
-+ (void)presentFrom:(UIViewController * _Nonnull)parent mode:(NSString * _Nonnull)mode isImagePreview:(BOOL)isImagePreview shouldShowSwitchCameraButton:(BOOL)shouldShowSwitchCameraButton completion:(void (^ _Nonnull)(NSString * _Nullable, UIImage * _Nonnull))completion;
-+ (void)presentFrom:(UIViewController * _Nonnull)parent mode:(NSString * _Nonnull)mode config:(CameraConfig * _Nullable)config isImagePreview:(BOOL)isImagePreview shouldShowSwitchCameraButton:(BOOL)shouldShowSwitchCameraButton completion:(void (^ _Nonnull)(NSString * _Nullable, UIImage * _Nonnull))completion;
++ (void)presentFrom:(UIViewController * _Nonnull)parent mode:(NSString * _Nonnull)mode isImagePreview:(BOOL)isImagePreview shouldShowSwitchCameraButton:(BOOL)shouldShowSwitchCameraButton completion:(void (^ _Nonnull)(NSString * _Nullable, UIImage * _Nonnull))completion onCancel:(void (^ _Nonnull)(void))onCancel;
++ (void)presentFrom:(UIViewController * _Nonnull)parent mode:(NSString * _Nonnull)mode config:(CameraConfig * _Nullable)config isImagePreview:(BOOL)isImagePreview shouldShowSwitchCameraButton:(BOOL)shouldShowSwitchCameraButton completion:(void (^ _Nonnull)(NSString * _Nullable, UIImage * _Nonnull))completion onCancel:(void (^ _Nonnull)(void))onCancel;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 

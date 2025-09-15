@@ -2744,7 +2744,7 @@
           {
             "kind": "Function",
             "name": "present",
-            "printedName": "present(from:mode:isImagePreview:shouldShowSwitchCameraButton:completion:)",
+            "printedName": "present(from:mode:isImagePreview:shouldShowSwitchCameraButton:completion:onCancel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2813,14 +2813,31 @@
                     ]
                   }
                 ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:mode:isImagePreview:shouldShowSwitchCameraButton:completion:",
-            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode14isImagePreview016shouldShowSwitchD6Button10completionySo16UIViewControllerC_SSS2bySo8NSStringCSg_So7UIImageCtctFZ",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:mode:isImagePreview:shouldShowSwitchCameraButton:completion:onCancel:",
+            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode14isImagePreview016shouldShowSwitchD6Button10completion8onCancelySo16UIViewControllerC_SSS2bySo8NSStringCSg_So7UIImageCtcyyctFZ",
             "moduleName": "DigioCaptureKit",
             "static": true,
-            "objc_name": "presentFrom:mode:isImagePreview:shouldShowSwitchCameraButton:completion:",
+            "objc_name": "presentFrom:mode:isImagePreview:shouldShowSwitchCameraButton:completion:onCancel:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -2831,7 +2848,7 @@
           {
             "kind": "Function",
             "name": "present",
-            "printedName": "present(from:mode:config:isImagePreview:shouldShowSwitchCameraButton:completion:)",
+            "printedName": "present(from:mode:config:isImagePreview:shouldShowSwitchCameraButton:completion:onCancel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2914,14 +2931,31 @@
                     ]
                   }
                 ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:mode:config:isImagePreview:shouldShowSwitchCameraButton:completion:",
-            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode6config14isImagePreview016shouldShowSwitchD6Button10completionySo16UIViewControllerC_SSAA0D6ConfigCSgS2bySo8NSStringCSg_So7UIImageCtctFZ",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:mode:config:isImagePreview:shouldShowSwitchCameraButton:completion:onCancel:",
+            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode6config14isImagePreview016shouldShowSwitchD6Button10completion8onCancelySo16UIViewControllerC_SSAA0D6ConfigCSgS2bySo8NSStringCSg_So7UIImageCtcyyctFZ",
             "moduleName": "DigioCaptureKit",
             "static": true,
-            "objc_name": "presentFrom:mode:config:isImagePreview:shouldShowSwitchCameraButton:completion:",
+            "objc_name": "presentFrom:mode:config:isImagePreview:shouldShowSwitchCameraButton:completion:onCancel:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -8623,21 +8657,21 @@
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/FileUtils.swift",
       "kind": "StringLiteral",
-      "offset": 1571,
+      "offset": 1978,
       "length": 6,
       "value": "\"jpeg\""
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/FileUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 1609,
+      "offset": 2016,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/FileUtils.swift",
       "kind": "FloatLiteral",
-      "offset": 1992,
+      "offset": 2399,
       "length": 3,
       "value": "1.0"
     },
@@ -8749,14 +8783,14 @@
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraFlowCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 424,
+      "offset": 463,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraFlowCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 477,
+      "offset": 516,
       "length": 5,
       "value": "false"
     },
@@ -8791,21 +8825,21 @@
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 600,
+      "offset": 632,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 643,
+      "offset": 675,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 685,
+      "offset": 717,
       "length": 4,
       "value": "true"
     },

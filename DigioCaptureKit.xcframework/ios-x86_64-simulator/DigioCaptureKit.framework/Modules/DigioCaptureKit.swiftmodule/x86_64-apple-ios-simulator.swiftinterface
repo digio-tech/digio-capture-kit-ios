@@ -67,8 +67,8 @@ public enum KeyError : Swift.String {
   }
 }
 @_inheritsConvenienceInitializers @objc public class CameraLauncher : ObjectiveC.NSObject {
-  @objc public static func present(from parent: UIKit.UIViewController, mode: Swift.String, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, completion: @escaping (Foundation.NSString?, UIKit.UIImage) -> Swift.Void)
-  @objc public static func present(from parent: UIKit.UIViewController, mode: Swift.String, config: DigioCaptureKit.CameraConfig?, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, completion: @escaping (Foundation.NSString?, UIKit.UIImage) -> Swift.Void)
+  @objc public static func present(from parent: UIKit.UIViewController, mode: Swift.String, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, completion: @escaping (Foundation.NSString?, UIKit.UIImage) -> Swift.Void, onCancel: @escaping (() -> Swift.Void))
+  @objc public static func present(from parent: UIKit.UIViewController, mode: Swift.String, config: DigioCaptureKit.CameraConfig?, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, completion: @escaping (Foundation.NSString?, UIKit.UIImage) -> Swift.Void, onCancel: @escaping (() -> Swift.Void))
   @objc override dynamic public init()
   @objc deinit
 }
