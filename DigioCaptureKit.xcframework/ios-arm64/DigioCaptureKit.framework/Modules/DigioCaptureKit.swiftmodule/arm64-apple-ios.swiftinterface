@@ -4,6 +4,7 @@
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
 import Accelerate
+import Combine
 import CoreLocation
 @_exported import DigioCaptureKit
 import Foundation
@@ -11,6 +12,7 @@ import MLKitFaceDetection
 import MLKitVision
 import Photos
 import Swift
+import SwiftUI
 import UIKit
 import UserNotifications
 import Vision
@@ -39,8 +41,19 @@ public class Facefy {
   @objc public var baseUrl: Swift.String?
   @objc public var clientId: Swift.String?
   @objc public var clientSecret: Swift.String?
-  @objc public var isStatelssFlow: Swift.Bool
   @objc public var token: Swift.String?
+  @objc public var isImagePreview: Swift.Bool
+  @objc public var isMotionSelfie: Swift.Bool
+  @objc public var livePhotoLength: Swift.Int
+  @objc public var shouldRestartOnAppear: Swift.Bool
+  @objc public var shouldShowSwitchCameraButton: Swift.Bool
+  @objc public var shouldShowInstructions: Swift.Bool
+  public var mode: DigioCaptureKit.CameraMode?
+  @objc public var isStatelssFlow: Swift.Bool
+  @objc public var locationRequired: Swift.Bool
+  @objc public var isVideoMode: Swift.Bool
+  public var themeColor: SwiftUICore.Color
+  @objc public var logoUrl: Swift.String?
   @objc override dynamic public init()
   @objc deinit
 }
@@ -67,8 +80,9 @@ public enum KeyError : Swift.String {
   }
 }
 @_inheritsConvenienceInitializers @objc public class CameraLauncher : ObjectiveC.NSObject {
-  @objc public static func present(from parent: UIKit.UIViewController, mode: Swift.String, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, completion: @escaping (Foundation.NSString?, UIKit.UIImage) -> Swift.Void, onCancel: @escaping (() -> Swift.Void))
-  @objc public static func present(from parent: UIKit.UIViewController, mode: Swift.String, config: DigioCaptureKit.CameraConfig?, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, completion: @escaping (Foundation.NSString?, UIKit.UIImage) -> Swift.Void, onCancel: @escaping (() -> Swift.Void))
+  @objc public static func present(from parent: UIKit.UIViewController, config: DigioCaptureKit.CameraConfig? = nil, completion: @escaping (Foundation.NSString?, Foundation.NSString?, UIKit.UIImage, CoreLocation.CLLocation?, CoreFoundation.CGRect, Foundation.NSString?) -> Swift.Void, onCancel: @escaping (() -> Swift.Void))
+  @objc public static func present(from parent: UIKit.UIViewController, mode: Swift.String, config: DigioCaptureKit.CameraConfig?, completion: @escaping (Foundation.NSString?, Foundation.NSString?, UIKit.UIImage, CoreLocation.CLLocation?, CoreFoundation.CGRect, Foundation.NSString?) -> Swift.Void, onCancel: @escaping (() -> Swift.Void))
+  @objc public static func present(from parent: UIKit.UIViewController, mode: Swift.String, isImagePreview: Swift.Bool, shouldShowSwitchCameraButton: Swift.Bool, token: Swift.String, baseUrl: Swift.String, isVideoMode: Swift.Bool, isInstruction: Swift.Bool, isLocation: Swift.Bool, isStateless: Swift.Bool, isMotionSelfie: Swift.Bool, livePhotoLength: Swift.Int, logoUrl: Swift.String, completion: @escaping (Foundation.NSString?, Foundation.NSString?, UIKit.UIImage, CoreLocation.CLLocation?, CoreFoundation.CGRect, Foundation.NSString?) -> Swift.Void, onCancel: @escaping (() -> Swift.Void))
   @objc override dynamic public init()
   @objc deinit
 }
@@ -103,12 +117,16 @@ public enum PermissionStatus {
     get
     set
   }
+  @_Concurrency.MainActor @preconcurrency public var bottomSectorText: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var bottomSectorVisiblity: Swift.Bool
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(frame: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency public func update()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func draw(_ rect: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency public func handleDraw(detectionBox: CoreFoundation.CGRect, faceContours: [CoreFoundation.CGPoint])
   @_Concurrency.MainActor @preconcurrency public func handleDraw(detectionBox: CoreFoundation.CGRect)
   @_Concurrency.MainActor @preconcurrency public func clear()
+  @_Concurrency.MainActor @preconcurrency public func animateFaceMissing(_ isMissing: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency public func isFaceInsideCircularROI(faceRect: CoreFoundation.CGRect) -> Swift.Bool
   @_Concurrency.MainActor @preconcurrency public func setSuggestionMessage(_ message: Swift.String?, _ textColor: UIKit.UIColor, _ backgroundColor: UIKit.UIColor)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
   @objc deinit
@@ -118,20 +136,24 @@ public enum PermissionStatus {
   @objc override dynamic public init()
   @objc deinit
 }
+
 @objc @_inheritsConvenienceInitializers final public class PermissionManager : ObjectiveC.NSObject {
   public static func status(for type: DigioCaptureKit.PermissionType) -> DigioCaptureKit.PermissionStatus
   public static func request(for type: DigioCaptureKit.PermissionType, completion: @escaping (DigioCaptureKit.PermissionStatus) -> Swift.Void)
   public static func openSettings()
+  public static func getCurrentLocation(completion: @escaping (CoreLocation.CLLocation?) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
 extension DigioCaptureKit.PermissionManager : CoreLocation.CLLocationManagerDelegate {
+  @objc final public func locationManagerDidChangeAuthorization(_ manager: CoreLocation.CLLocationManager)
   @objc final public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
 }
 @_hasMissingDesignatedInitializers public class ROI {
   public func isOutOf(topOffset: CoreFoundation.CGFloat, rightOffset: CoreFoundation.CGFloat, bottomOffset: CoreFoundation.CGFloat, leftOffset: CoreFoundation.CGFloat) -> Swift.Bool
   @objc deinit
 }
+
 @objc public enum CaptureType : Swift.Int {
   case NONE = 0
   case FACE = 1
@@ -167,8 +189,8 @@ public enum CameraMode : Swift.String {
   }
 }
 @objc public protocol CameraEventListenerDelegate {
-  @objc func onImageCaptured(_ type: Swift.String, _ count: Swift.Int, _ total: Swift.Int, _ imagePath: Swift.String, _ darkness: Foundation.NSNumber?, _ lightness: Foundation.NSNumber?, _ sharpness: Foundation.NSNumber?)
-  @objc func onFaceDetected(_ x: Swift.Int, _ y: Swift.Int, _ width: Swift.Int, _ height: Swift.Int, _ leftEyeOpenProbability: Foundation.NSNumber?, _ rightEyeOpenProbability: Foundation.NSNumber?, _ smilingProbability: Foundation.NSNumber?, _ headEulerAngleX: Foundation.NSNumber?, _ headEulerAngleY: Foundation.NSNumber?, _ headEulerAngleZ: Foundation.NSNumber?, _ darkness: Foundation.NSNumber?, _ lightness: Foundation.NSNumber?, _ sharpness: Foundation.NSNumber?, _ isMultiface: Swift.Bool, _ numberOfFaces: Swift.Int)
+  @objc func onImageCaptured(_ type: Swift.String, _ count: Swift.Int, _ total: Swift.Int, _ imagePath: Swift.String, _ videoPath: Swift.String?, _ faceCoords: CoreFoundation.CGRect, _ leftEyeOpenProbability: Foundation.NSNumber?, _ rightEyeOpenProbability: Foundation.NSNumber?, _ smilingProbability: Foundation.NSNumber?, _ headEulerAngleX: Foundation.NSNumber?, _ headEulerAngleY: Foundation.NSNumber?, _ headEulerAngleZ: Foundation.NSNumber?, _ darkness: Foundation.NSNumber?, _ lightness: Foundation.NSNumber?, _ sharpness: Foundation.NSNumber?, _ isMultiface: Swift.Bool, _ numberOfFaces: Swift.Int)
+  @objc func onFaceDetected(_ faceCoords: CoreFoundation.CGRect, _ leftEyeOpenProbability: Foundation.NSNumber?, _ rightEyeOpenProbability: Foundation.NSNumber?, _ smilingProbability: Foundation.NSNumber?, _ headEulerAngleX: Foundation.NSNumber?, _ headEulerAngleY: Foundation.NSNumber?, _ headEulerAngleZ: Foundation.NSNumber?, _ darkness: Foundation.NSNumber?, _ lightness: Foundation.NSNumber?, _ sharpness: Foundation.NSNumber?, _ isMultiface: Swift.Bool, _ numberOfFaces: Swift.Int)
   @objc func onFaceUndetected()
   @objc func onEndCapture()
   @objc func onError(_ error: Swift.String)
@@ -228,9 +250,13 @@ public enum CameraMode : Swift.String {
   @objc @_Concurrency.MainActor @preconcurrency public func setROILeftOffset(_ leftOffset: Swift.Float)
   @objc @_Concurrency.MainActor @preconcurrency public func setROIAreaOffset(_ enable: Swift.Bool)
   @objc @_Concurrency.MainActor @preconcurrency public func setROIAreaOffsetColor(_ alpha: Swift.Float, _ red: Swift.Float, _ green: Swift.Float, _ blue: Swift.Float)
-  @objc @_Concurrency.MainActor @preconcurrency public func setFaceDetectionStorkeColor(from color: UIKit.UIColor)
+  @objc @_Concurrency.MainActor @preconcurrency public func setFaceDetectionStorkeColor(from color: UIKit.UIColor?)
   @objc @_Concurrency.MainActor @preconcurrency public func setSuggestionMessage(message: Swift.String?, textColor: UIKit.UIColor, backgroundColor: UIKit.UIColor)
+  @objc @_Concurrency.MainActor @preconcurrency public func showFaceNotDetectedAnimation(_ showAnimation: Swift.Bool)
+  @objc @_Concurrency.MainActor @preconcurrency public func setBottomSectorVisiblity(showBottomMessage: Swift.Bool)
   @objc @_Concurrency.MainActor @preconcurrency public func setMinimumFaceSize(_ size: CoreFoundation.CGFloat)
+  @objc @_Concurrency.MainActor @preconcurrency public func setMotionVideoLength(_ length: Swift.Int)
+  @objc @_Concurrency.MainActor @preconcurrency public func setIsMotionSelfie(_ isMotionSelfie: Swift.Bool)
   @objc deinit
 }
 public struct PermissionHelper {
@@ -238,6 +264,7 @@ public struct PermissionHelper {
 @_hasMissingDesignatedInitializers public class CaptureOptions {
   @objc deinit
 }
+
 extension DigioCaptureKit.KeyError : Swift.Equatable {}
 extension DigioCaptureKit.KeyError : Swift.Hashable {}
 extension DigioCaptureKit.KeyError : Swift.RawRepresentable {}

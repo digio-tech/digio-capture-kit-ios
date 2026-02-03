@@ -312,8 +312,17 @@ SWIFT_CLASS("_TtC15DigioCaptureKit12CameraConfig")
 @property (nonatomic, copy) NSString * _Nullable baseUrl;
 @property (nonatomic, copy) NSString * _Nullable clientId;
 @property (nonatomic, copy) NSString * _Nullable clientSecret;
-@property (nonatomic) BOOL isStatelssFlow;
 @property (nonatomic, copy) NSString * _Nullable token;
+@property (nonatomic) BOOL isImagePreview;
+@property (nonatomic) BOOL isMotionSelfie;
+@property (nonatomic) NSInteger livePhotoLength;
+@property (nonatomic) BOOL shouldRestartOnAppear;
+@property (nonatomic) BOOL shouldShowSwitchCameraButton;
+@property (nonatomic) BOOL shouldShowInstructions;
+@property (nonatomic) BOOL isStatelssFlow;
+@property (nonatomic) BOOL locationRequired;
+@property (nonatomic) BOOL isVideoMode;
+@property (nonatomic, copy) NSString * _Nullable logoUrl;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -321,8 +330,8 @@ SWIFT_CLASS("_TtC15DigioCaptureKit12CameraConfig")
 
 SWIFT_PROTOCOL("_TtP15DigioCaptureKit27CameraEventListenerDelegate_")
 @protocol CameraEventListenerDelegate
-- (void)onImageCaptured:(NSString * _Nonnull)type :(NSInteger)count :(NSInteger)total :(NSString * _Nonnull)imagePath :(NSNumber * _Nullable)darkness :(NSNumber * _Nullable)lightness :(NSNumber * _Nullable)sharpness;
-- (void)onFaceDetected:(NSInteger)x :(NSInteger)y :(NSInteger)width :(NSInteger)height :(NSNumber * _Nullable)leftEyeOpenProbability :(NSNumber * _Nullable)rightEyeOpenProbability :(NSNumber * _Nullable)smilingProbability :(NSNumber * _Nullable)headEulerAngleX :(NSNumber * _Nullable)headEulerAngleY :(NSNumber * _Nullable)headEulerAngleZ :(NSNumber * _Nullable)darkness :(NSNumber * _Nullable)lightness :(NSNumber * _Nullable)sharpness :(BOOL)isMultiface :(NSInteger)numberOfFaces;
+- (void)onImageCaptured:(NSString * _Nonnull)type :(NSInteger)count :(NSInteger)total :(NSString * _Nonnull)imagePath :(NSString * _Nullable)videoPath :(CGRect)faceCoords :(NSNumber * _Nullable)leftEyeOpenProbability :(NSNumber * _Nullable)rightEyeOpenProbability :(NSNumber * _Nullable)smilingProbability :(NSNumber * _Nullable)headEulerAngleX :(NSNumber * _Nullable)headEulerAngleY :(NSNumber * _Nullable)headEulerAngleZ :(NSNumber * _Nullable)darkness :(NSNumber * _Nullable)lightness :(NSNumber * _Nullable)sharpness :(BOOL)isMultiface :(NSInteger)numberOfFaces;
+- (void)onFaceDetected:(CGRect)faceCoords :(NSNumber * _Nullable)leftEyeOpenProbability :(NSNumber * _Nullable)rightEyeOpenProbability :(NSNumber * _Nullable)smilingProbability :(NSNumber * _Nullable)headEulerAngleX :(NSNumber * _Nullable)headEulerAngleY :(NSNumber * _Nullable)headEulerAngleZ :(NSNumber * _Nullable)darkness :(NSNumber * _Nullable)lightness :(NSNumber * _Nullable)sharpness :(BOOL)isMultiface :(NSInteger)numberOfFaces;
 - (void)onFaceUndetected;
 - (void)onEndCapture;
 - (void)onError:(NSString * _Nonnull)error;
@@ -352,11 +361,14 @@ SWIFT_CLASS("_TtC15DigioCaptureKit17CameraGraphicView")
 
 @class UIViewController;
 @class UIImage;
+@class CLLocation;
 
 SWIFT_CLASS("_TtC15DigioCaptureKit14CameraLauncher")
 @interface CameraLauncher : NSObject
-+ (void)presentFrom:(UIViewController * _Nonnull)parent mode:(NSString * _Nonnull)mode isImagePreview:(BOOL)isImagePreview shouldShowSwitchCameraButton:(BOOL)shouldShowSwitchCameraButton completion:(void (^ _Nonnull)(NSString * _Nullable, UIImage * _Nonnull))completion onCancel:(void (^ _Nonnull)(void))onCancel;
-+ (void)presentFrom:(UIViewController * _Nonnull)parent mode:(NSString * _Nonnull)mode config:(CameraConfig * _Nullable)config isImagePreview:(BOOL)isImagePreview shouldShowSwitchCameraButton:(BOOL)shouldShowSwitchCameraButton completion:(void (^ _Nonnull)(NSString * _Nullable, UIImage * _Nonnull))completion onCancel:(void (^ _Nonnull)(void))onCancel;
++ (void)presentFrom:(UIViewController * _Nonnull)parent config:(CameraConfig * _Nullable)config completion:(void (^ _Nonnull)(NSString * _Nullable, NSString * _Nullable, UIImage * _Nonnull, CLLocation * _Nullable, CGRect, NSString * _Nullable))completion onCancel:(void (^ _Nonnull)(void))onCancel;
+/// this function get trigger from iosKycSDK from CaptureKitHelper under  launchCameraIfAvailable function
++ (void)presentFrom:(UIViewController * _Nonnull)parent mode:(NSString * _Nonnull)mode config:(CameraConfig * _Nullable)config completion:(void (^ _Nonnull)(NSString * _Nullable, NSString * _Nullable, UIImage * _Nonnull, CLLocation * _Nullable, CGRect, NSString * _Nullable))completion onCancel:(void (^ _Nonnull)(void))onCancel;
++ (void)presentFrom:(UIViewController * _Nonnull)parent mode:(NSString * _Nonnull)mode isImagePreview:(BOOL)isImagePreview shouldShowSwitchCameraButton:(BOOL)shouldShowSwitchCameraButton token:(NSString * _Nonnull)token baseUrl:(NSString * _Nonnull)baseUrl isVideoMode:(BOOL)isVideoMode isInstruction:(BOOL)isInstruction isLocation:(BOOL)isLocation isStateless:(BOOL)isStateless isMotionSelfie:(BOOL)isMotionSelfie livePhotoLength:(NSInteger)livePhotoLength logoUrl:(NSString * _Nonnull)logoUrl completion:(void (^ _Nonnull)(NSString * _Nullable, NSString * _Nullable, UIImage * _Nonnull, CLLocation * _Nullable, CGRect, NSString * _Nullable))completion onCancel:(void (^ _Nonnull)(void))onCancel;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -540,9 +552,13 @@ SWIFT_CLASS("_TtC15DigioCaptureKit10CameraView")
 /// Default value is <code>(0.4, 1.0, 1.0, 1.0)</code>.
 ///
 - (void)setROIAreaOffsetColor:(float)alpha :(float)red :(float)green :(float)blue;
-- (void)setFaceDetectionStorkeColorFrom:(UIColor * _Nonnull)color;
+- (void)setFaceDetectionStorkeColorFrom:(UIColor * _Nullable)color;
 - (void)setSuggestionMessageWithMessage:(NSString * _Nullable)message textColor:(UIColor * _Nonnull)textColor backgroundColor:(UIColor * _Nonnull)backgroundColor;
+- (void)showFaceNotDetectedAnimation:(BOOL)showAnimation;
+- (void)setBottomSectorVisiblityWithShowBottomMessage:(BOOL)showBottomMessage;
 - (void)setMinimumFaceSize:(CGFloat)size;
+- (void)setMotionVideoLength:(NSInteger)length;
+- (void)setIsMotionSelfie:(BOOL)isMotionSelfie;
 @end
 
 typedef SWIFT_ENUM(NSInteger, CaptureType, open) {
@@ -561,6 +577,7 @@ SWIFT_CLASS("_TtC15DigioCaptureKit17PermissionManager")
 @class CLLocationManager;
 
 @interface PermissionManager (SWIFT_EXTENSION(DigioCaptureKit)) <CLLocationManagerDelegate>
+- (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didChangeAuthorizationStatus:(CLAuthorizationStatus)status;
 @end
 
@@ -570,6 +587,8 @@ SWIFT_CLASS("_TtC15DigioCaptureKit15PreviewLauncher")
 + (void)launchPreviewFrom:(UIViewController * _Nonnull)viewController image:(UIImage * _Nonnull)image imagePath:(NSString * _Nonnull)imagePath environment:(NSString * _Nonnull)environment clientId:(NSString * _Nonnull)clientId secretKey:(NSString * _Nonnull)secretKey token:(NSString * _Nonnull)token onComplete:(void (^ _Nonnull)(void))onComplete onRetake:(void (^ _Nonnull)(void))onRetake;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 
 #endif

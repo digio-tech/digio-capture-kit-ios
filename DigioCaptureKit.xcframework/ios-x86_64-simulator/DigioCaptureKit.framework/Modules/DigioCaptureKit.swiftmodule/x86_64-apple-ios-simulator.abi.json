@@ -1228,6 +1228,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -1249,6 +1259,26 @@
         "printedName": "Vision",
         "declKind": "Import",
         "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -1286,6 +1316,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1293,6 +1333,13 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
       },
       {
         "kind": "TypeDecl",
@@ -1652,99 +1699,6 @@
           },
           {
             "kind": "Var",
-            "name": "isStatelssFlow",
-            "printedName": "isStatelssFlow",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(py)isStatelssFlow",
-            "mangledName": "$s15DigioCaptureKit12CameraConfigC14isStatelssFlowSbvp",
-            "moduleName": "DigioCaptureKit",
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "AccessControl",
-              "ObjC"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)isStatelssFlow",
-                "mangledName": "$s15DigioCaptureKit12CameraConfigC14isStatelssFlowSbvg",
-                "moduleName": "DigioCaptureKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)setIsStatelssFlow:",
-                "mangledName": "$s15DigioCaptureKit12CameraConfigC14isStatelssFlowSbvs",
-                "moduleName": "DigioCaptureKit",
-                "implicit": true,
-                "declAttributes": [
-                  "ObjC"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:15DigioCaptureKit12CameraConfigC14isStatelssFlowSbvM",
-                "mangledName": "$s15DigioCaptureKit12CameraConfigC14isStatelssFlowSbvM",
-                "moduleName": "DigioCaptureKit",
-                "implicit": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "token",
             "printedName": "token",
             "children": [
@@ -1854,6 +1808,1156 @@
                 "declKind": "Accessor",
                 "usr": "s:15DigioCaptureKit12CameraConfigC5tokenSSSgvM",
                 "mangledName": "$s15DigioCaptureKit12CameraConfigC5tokenSSSgvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isImagePreview",
+            "printedName": "isImagePreview",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(py)isImagePreview",
+            "mangledName": "$s15DigioCaptureKit12CameraConfigC14isImagePreviewSbvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)isImagePreview",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC14isImagePreviewSbvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)setIsImagePreview:",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC14isImagePreviewSbvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC14isImagePreviewSbvM",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC14isImagePreviewSbvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isMotionSelfie",
+            "printedName": "isMotionSelfie",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(py)isMotionSelfie",
+            "mangledName": "$s15DigioCaptureKit12CameraConfigC14isMotionSelfieSbvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)isMotionSelfie",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC14isMotionSelfieSbvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)setIsMotionSelfie:",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC14isMotionSelfieSbvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC14isMotionSelfieSbvM",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC14isMotionSelfieSbvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "livePhotoLength",
+            "printedName": "livePhotoLength",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(py)livePhotoLength",
+            "mangledName": "$s15DigioCaptureKit12CameraConfigC15livePhotoLengthSivp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)livePhotoLength",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC15livePhotoLengthSivg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)setLivePhotoLength:",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC15livePhotoLengthSivs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC15livePhotoLengthSivM",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC15livePhotoLengthSivM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldRestartOnAppear",
+            "printedName": "shouldRestartOnAppear",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(py)shouldRestartOnAppear",
+            "mangledName": "$s15DigioCaptureKit12CameraConfigC21shouldRestartOnAppearSbvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)shouldRestartOnAppear",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC21shouldRestartOnAppearSbvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)setShouldRestartOnAppear:",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC21shouldRestartOnAppearSbvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC21shouldRestartOnAppearSbvM",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC21shouldRestartOnAppearSbvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldShowSwitchCameraButton",
+            "printedName": "shouldShowSwitchCameraButton",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(py)shouldShowSwitchCameraButton",
+            "mangledName": "$s15DigioCaptureKit12CameraConfigC016shouldShowSwitchD6ButtonSbvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)shouldShowSwitchCameraButton",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC016shouldShowSwitchD6ButtonSbvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)setShouldShowSwitchCameraButton:",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC016shouldShowSwitchD6ButtonSbvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC016shouldShowSwitchD6ButtonSbvM",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC016shouldShowSwitchD6ButtonSbvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldShowInstructions",
+            "printedName": "shouldShowInstructions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(py)shouldShowInstructions",
+            "mangledName": "$s15DigioCaptureKit12CameraConfigC22shouldShowInstructionsSbvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)shouldShowInstructions",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC22shouldShowInstructionsSbvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)setShouldShowInstructions:",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC22shouldShowInstructionsSbvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC22shouldShowInstructionsSbvM",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC22shouldShowInstructionsSbvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "mode",
+            "printedName": "mode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DigioCaptureKit.CameraMode?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CameraMode",
+                    "printedName": "DigioCaptureKit.CameraMode",
+                    "usr": "s:15DigioCaptureKit10CameraModeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DigioCaptureKit12CameraConfigC4modeAA0D4ModeOSgvp",
+            "mangledName": "$s15DigioCaptureKit12CameraConfigC4modeAA0D4ModeOSgvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DigioCaptureKit.CameraMode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CameraMode",
+                        "printedName": "DigioCaptureKit.CameraMode",
+                        "usr": "s:15DigioCaptureKit10CameraModeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC4modeAA0D4ModeOSgvg",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC4modeAA0D4ModeOSgvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DigioCaptureKit.CameraMode?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CameraMode",
+                        "printedName": "DigioCaptureKit.CameraMode",
+                        "usr": "s:15DigioCaptureKit10CameraModeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC4modeAA0D4ModeOSgvs",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC4modeAA0D4ModeOSgvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC4modeAA0D4ModeOSgvM",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC4modeAA0D4ModeOSgvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isStatelssFlow",
+            "printedName": "isStatelssFlow",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(py)isStatelssFlow",
+            "mangledName": "$s15DigioCaptureKit12CameraConfigC14isStatelssFlowSbvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)isStatelssFlow",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC14isStatelssFlowSbvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)setIsStatelssFlow:",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC14isStatelssFlowSbvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC14isStatelssFlowSbvM",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC14isStatelssFlowSbvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "locationRequired",
+            "printedName": "locationRequired",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(py)locationRequired",
+            "mangledName": "$s15DigioCaptureKit12CameraConfigC16locationRequiredSbvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)locationRequired",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC16locationRequiredSbvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)setLocationRequired:",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC16locationRequiredSbvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC16locationRequiredSbvM",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC16locationRequiredSbvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isVideoMode",
+            "printedName": "isVideoMode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(py)isVideoMode",
+            "mangledName": "$s15DigioCaptureKit12CameraConfigC11isVideoModeSbvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)isVideoMode",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC11isVideoModeSbvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)setIsVideoMode:",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC11isVideoModeSbvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC11isVideoModeSbvM",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC11isVideoModeSbvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "themeColor",
+            "printedName": "themeColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DigioCaptureKit12CameraConfigC10themeColor7SwiftUI0G0Vvp",
+            "mangledName": "$s15DigioCaptureKit12CameraConfigC10themeColor7SwiftUI0G0Vvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC10themeColor7SwiftUI0G0Vvg",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC10themeColor7SwiftUI0G0Vvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC10themeColor7SwiftUI0G0Vvs",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC10themeColor7SwiftUI0G0Vvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC10themeColor7SwiftUI0G0VvM",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC10themeColor7SwiftUI0G0VvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "logoUrl",
+            "printedName": "logoUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(py)logoUrl",
+            "mangledName": "$s15DigioCaptureKit12CameraConfigC7logoUrlSSSgvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)logoUrl",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC7logoUrlSSSgvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig(im)setLogoUrl:",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC7logoUrlSSSgvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit12CameraConfigC7logoUrlSSSgvM",
+                "mangledName": "$s15DigioCaptureKit12CameraConfigC7logoUrlSSSgvM",
                 "moduleName": "DigioCaptureKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -2718,6 +3822,13 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2737,6 +3848,13 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
         "kind": "TypeDecl",
         "name": "CameraLauncher",
         "printedName": "CameraLauncher",
@@ -2744,7 +3862,7 @@
           {
             "kind": "Function",
             "name": "present",
-            "printedName": "present(from:mode:isImagePreview:shouldShowSwitchCameraButton:completion:onCancel:)",
+            "printedName": "present(from:config:completion:onCancel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2759,26 +3877,23 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "Optional",
+                "printedName": "DigioCaptureKit.CameraConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CameraConfig",
+                    "printedName": "DigioCaptureKit.CameraConfig",
+                    "usr": "c:@M@DigioCaptureKit@objc(cs)CameraConfig"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Foundation.NSString?, UIKit.UIImage) -> ()",
+                "printedName": "(Foundation.NSString?, Foundation.NSString?, UIKit.UIImage, CoreLocation.CLLocation?, CoreFoundation.CGRect, Foundation.NSString?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2788,8 +3903,22 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Foundation.NSString?, UIKit.UIImage)",
+                    "printedName": "(Foundation.NSString?, Foundation.NSString?, UIKit.UIImage, CoreLocation.CLLocation?, CoreFoundation.CGRect, Foundation.NSString?)",
                     "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSString?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSString",
+                            "printedName": "Foundation.NSString",
+                            "usr": "c:objc(cs)NSString"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
@@ -2809,6 +3938,40 @@
                         "name": "UIImage",
                         "printedName": "UIKit.UIImage",
                         "usr": "c:objc(cs)UIImage"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreLocation.CLLocation?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CLLocation",
+                            "printedName": "CoreLocation.CLLocation",
+                            "usr": "c:objc(cs)CLLocation"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGRect",
+                        "printedName": "CoreFoundation.CGRect",
+                        "usr": "c:@S@CGRect"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSString?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSString",
+                            "printedName": "Foundation.NSString",
+                            "usr": "c:objc(cs)NSString"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -2833,11 +3996,11 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:mode:isImagePreview:shouldShowSwitchCameraButton:completion:onCancel:",
-            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode14isImagePreview016shouldShowSwitchD6Button10completion8onCancelySo16UIViewControllerC_SSS2bySo8NSStringCSg_So7UIImageCtcyyctFZ",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:config:completion:onCancel:",
+            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from6config10completion8onCancelySo16UIViewControllerC_AA0D6ConfigCSgySo8NSStringCSg_APSo7UIImageCSo10CLLocationCSgSo6CGRectVAPtcyyctFZ",
             "moduleName": "DigioCaptureKit",
             "static": true,
-            "objc_name": "presentFrom:mode:isImagePreview:shouldShowSwitchCameraButton:completion:onCancel:",
+            "objc_name": "presentFrom:config:completion:onCancel:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -2848,7 +4011,7 @@
           {
             "kind": "Function",
             "name": "present",
-            "printedName": "present(from:mode:config:isImagePreview:shouldShowSwitchCameraButton:completion:onCancel:)",
+            "printedName": "present(from:mode:config:completion:onCancel:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2882,21 +4045,9 @@
                 "usr": "s:Sq"
               },
               {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(Foundation.NSString?, UIKit.UIImage) -> ()",
+                "printedName": "(Foundation.NSString?, Foundation.NSString?, UIKit.UIImage, CoreLocation.CLLocation?, CoreFoundation.CGRect, Foundation.NSString?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -2906,8 +4057,22 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Tuple",
-                    "printedName": "(Foundation.NSString?, UIKit.UIImage)",
+                    "printedName": "(Foundation.NSString?, Foundation.NSString?, UIKit.UIImage, CoreLocation.CLLocation?, CoreFoundation.CGRect, Foundation.NSString?)",
                     "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSString?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSString",
+                            "printedName": "Foundation.NSString",
+                            "usr": "c:objc(cs)NSString"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
                       {
                         "kind": "TypeNominal",
                         "name": "Optional",
@@ -2927,6 +4092,40 @@
                         "name": "UIImage",
                         "printedName": "UIKit.UIImage",
                         "usr": "c:objc(cs)UIImage"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreLocation.CLLocation?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CLLocation",
+                            "printedName": "CoreLocation.CLLocation",
+                            "usr": "c:objc(cs)CLLocation"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGRect",
+                        "printedName": "CoreFoundation.CGRect",
+                        "usr": "c:@S@CGRect"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSString?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSString",
+                            "printedName": "Foundation.NSString",
+                            "usr": "c:objc(cs)NSString"
+                          }
+                        ],
+                        "usr": "s:Sq"
                       }
                     ]
                   }
@@ -2951,11 +4150,218 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:mode:config:isImagePreview:shouldShowSwitchCameraButton:completion:onCancel:",
-            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode6config14isImagePreview016shouldShowSwitchD6Button10completion8onCancelySo16UIViewControllerC_SSAA0D6ConfigCSgS2bySo8NSStringCSg_So7UIImageCtcyyctFZ",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:mode:config:completion:onCancel:",
+            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode6config10completion8onCancelySo16UIViewControllerC_SSAA0D6ConfigCSgySo8NSStringCSg_AQSo7UIImageCSo10CLLocationCSgSo6CGRectVAQtcyyctFZ",
             "moduleName": "DigioCaptureKit",
             "static": true,
-            "objc_name": "presentFrom:mode:config:isImagePreview:shouldShowSwitchCameraButton:completion:onCancel:",
+            "objc_name": "presentFrom:mode:config:completion:onCancel:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "present",
+            "printedName": "present(from:mode:isImagePreview:shouldShowSwitchCameraButton:token:baseUrl:isVideoMode:isInstruction:isLocation:isStateless:isMotionSelfie:livePhotoLength:logoUrl:completion:onCancel:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSString?, Foundation.NSString?, UIKit.UIImage, CoreLocation.CLLocation?, CoreFoundation.CGRect, Foundation.NSString?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.NSString?, Foundation.NSString?, UIKit.UIImage, CoreLocation.CLLocation?, CoreFoundation.CGRect, Foundation.NSString?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSString?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSString",
+                            "printedName": "Foundation.NSString",
+                            "usr": "c:objc(cs)NSString"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSString?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSString",
+                            "printedName": "Foundation.NSString",
+                            "usr": "c:objc(cs)NSString"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIImage",
+                        "printedName": "UIKit.UIImage",
+                        "usr": "c:objc(cs)UIImage"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "CoreLocation.CLLocation?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CLLocation",
+                            "printedName": "CoreLocation.CLLocation",
+                            "usr": "c:objc(cs)CLLocation"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CGRect",
+                        "printedName": "CoreFoundation.CGRect",
+                        "usr": "c:@S@CGRect"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSString?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSString",
+                            "printedName": "Foundation.NSString",
+                            "usr": "c:objc(cs)NSString"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:mode:isImagePreview:shouldShowSwitchCameraButton:token:baseUrl:isVideoMode:isInstruction:isLocation:isStateless:isMotionSelfie:livePhotoLength:logoUrl:completion:onCancel:",
+            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode14isImagePreview016shouldShowSwitchD6Button5token7baseUrl0I9VideoMode0I11Instruction0I8Location0I9Stateless0I12MotionSelfie15livePhotoLength04logoR010completion8onCancelySo16UIViewControllerC_SSS2bS2SS5bSiSSySo8NSStringCSg_AXSo7UIImageCSo10CLLocationCSgSo6CGRectVAXtcyyctFZ",
+            "moduleName": "DigioCaptureKit",
+            "static": true,
+            "objc_name": "presentFrom:mode:isImagePreview:shouldShowSwitchCameraButton:token:baseUrl:isVideoMode:isInstruction:isLocation:isStateless:isMotionSelfie:livePhotoLength:logoUrl:completion:onCancel:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -3840,6 +5246,13 @@
       },
       {
         "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -3942,6 +5355,183 @@
                 "declKind": "Accessor",
                 "usr": "s:15DigioCaptureKit17CameraGraphicViewC4drawSbvM",
                 "mangledName": "$s15DigioCaptureKit17CameraGraphicViewC4drawSbvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bottomSectorText",
+            "printedName": "bottomSectorText",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DigioCaptureKit17CameraGraphicViewC16bottomSectorTextSSvp",
+            "mangledName": "$s15DigioCaptureKit17CameraGraphicViewC16bottomSectorTextSSvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit17CameraGraphicViewC16bottomSectorTextSSvg",
+                "mangledName": "$s15DigioCaptureKit17CameraGraphicViewC16bottomSectorTextSSvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit17CameraGraphicViewC16bottomSectorTextSSvs",
+                "mangledName": "$s15DigioCaptureKit17CameraGraphicViewC16bottomSectorTextSSvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit17CameraGraphicViewC16bottomSectorTextSSvM",
+                "mangledName": "$s15DigioCaptureKit17CameraGraphicViewC16bottomSectorTextSSvM",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bottomSectorVisiblity",
+            "printedName": "bottomSectorVisiblity",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:15DigioCaptureKit17CameraGraphicViewC21bottomSectorVisiblitySbvp",
+            "mangledName": "$s15DigioCaptureKit17CameraGraphicViewC21bottomSectorVisiblitySbvp",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit17CameraGraphicViewC21bottomSectorVisiblitySbvg",
+                "mangledName": "$s15DigioCaptureKit17CameraGraphicViewC21bottomSectorVisiblitySbvg",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit17CameraGraphicViewC21bottomSectorVisiblitySbvs",
+                "mangledName": "$s15DigioCaptureKit17CameraGraphicViewC21bottomSectorVisiblitySbvs",
+                "moduleName": "DigioCaptureKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:15DigioCaptureKit17CameraGraphicViewC21bottomSectorVisiblitySbvM",
+                "mangledName": "$s15DigioCaptureKit17CameraGraphicViewC21bottomSectorVisiblitySbvM",
                 "moduleName": "DigioCaptureKit",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -4132,6 +5722,64 @@
           },
           {
             "kind": "Function",
+            "name": "animateFaceMissing",
+            "printedName": "animateFaceMissing(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DigioCaptureKit17CameraGraphicViewC18animateFaceMissingyySbF",
+            "mangledName": "$s15DigioCaptureKit17CameraGraphicViewC18animateFaceMissingyySbF",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isFaceInsideCircularROI",
+            "printedName": "isFaceInsideCircularROI(faceRect:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DigioCaptureKit17CameraGraphicViewC23isFaceInsideCircularROI8faceRectSbSo6CGRectV_tF",
+            "mangledName": "$s15DigioCaptureKit17CameraGraphicViewC23isFaceInsideCircularROI8faceRectSbSo6CGRectV_tF",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setSuggestionMessage",
             "printedName": "setSuggestionMessage(_:_:_:)",
             "children": [
@@ -4174,7 +5822,8 @@
             "declAttributes": [
               "Preconcurrency",
               "Custom",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4304,6 +5953,37 @@
             "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
       },
       {
         "kind": "Import",
@@ -4572,6 +6252,37 @@
       },
       {
         "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
         "name": "AVFoundation",
         "printedName": "AVFoundation",
         "declKind": "Import",
@@ -4603,6 +6314,27 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
       },
       {
         "kind": "Import",
@@ -4752,6 +6484,54 @@
             "funcSelfKind": "NonMutating"
           },
           {
+            "kind": "Function",
+            "name": "getCurrentLocation",
+            "printedName": "getCurrentLocation(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(CoreLocation.CLLocation?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "CoreLocation.CLLocation?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CLLocation",
+                        "printedName": "CoreLocation.CLLocation",
+                        "usr": "c:objc(cs)CLLocation"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15DigioCaptureKit17PermissionManagerC18getCurrentLocation10completionyySo10CLLocationCSgc_tFZ",
+            "mangledName": "$s15DigioCaptureKit17PermissionManagerC18getCurrentLocation10completionyySo10CLLocationCSgc_tFZ",
+            "moduleName": "DigioCaptureKit",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init()",
@@ -4776,6 +6556,37 @@
               "Override"
             ],
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManagerDidChangeAuthorization",
+            "printedName": "locationManagerDidChangeAuthorization(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@DigioCaptureKit@objc(cs)PermissionManager(im)locationManagerDidChangeAuthorization:",
+            "mangledName": "$s15DigioCaptureKit17PermissionManagerC08locationE22DidChangeAuthorizationyySo010CLLocationE0CF",
+            "moduleName": "DigioCaptureKit",
+            "objc_name": "locationManagerDidChangeAuthorization:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -4808,7 +6619,8 @@
             "declAttributes": [
               "Final",
               "ObjC",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -4995,6 +6807,13 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
       },
       {
         "kind": "Import",
@@ -5631,6 +7450,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5965,6 +7794,16 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -5981,7 +7820,7 @@
           {
             "kind": "Function",
             "name": "onImageCaptured",
-            "printedName": "onImageCaptured(_:_:_:_:_:_:_:)",
+            "printedName": "onImageCaptured(_:_:_:_:_:_:_:_:_:_:_:_:_:_:_:_:_:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -6015,92 +7854,22 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Foundation.NSNumber?",
+                "printedName": "Swift.String?",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "NSNumber",
-                    "printedName": "Foundation.NSNumber",
-                    "usr": "c:objc(cs)NSNumber"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ],
                 "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.NSNumber?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSNumber",
-                    "printedName": "Foundation.NSNumber",
-                    "usr": "c:objc(cs)NSNumber"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Foundation.NSNumber?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSNumber",
-                    "printedName": "Foundation.NSNumber",
-                    "usr": "c:objc(cs)NSNumber"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "c:@M@DigioCaptureKit@objc(pl)CameraEventListenerDelegate(im)onImageCaptured:::::::",
-            "mangledName": "$s15DigioCaptureKit27CameraEventListenerDelegateP15onImageCapturedyySS_S2iSSSo8NSNumberCSgA2GtF",
-            "moduleName": "DigioCaptureKit",
-            "genericSig": "<τ_0_0 where τ_0_0 : DigioCaptureKit.CameraEventListenerDelegate>",
-            "sugared_genericSig": "<Self where Self : DigioCaptureKit.CameraEventListenerDelegate>",
-            "protocolReq": true,
-            "declAttributes": [
-              "ObjC"
-            ],
-            "reqNewWitnessTableEntry": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "onFaceDetected",
-            "printedName": "onFaceDetected(_:_:_:_:_:_:_:_:_:_:_:_:_:_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
               },
               {
                 "kind": "TypeNominal",
@@ -6242,8 +8011,176 @@
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DigioCaptureKit@objc(pl)CameraEventListenerDelegate(im)onFaceDetected:::::::::::::::",
-            "mangledName": "$s15DigioCaptureKit27CameraEventListenerDelegateP14onFaceDetectedyySi_S3iSo8NSNumberCSgA8GSbSitF",
+            "usr": "c:@M@DigioCaptureKit@objc(pl)CameraEventListenerDelegate(im)onImageCaptured:::::::::::::::::",
+            "mangledName": "$s15DigioCaptureKit27CameraEventListenerDelegateP15onImageCapturedyySS_S2iS2SSgSo6CGRectVSo8NSNumberCSgA8JSbSitF",
+            "moduleName": "DigioCaptureKit",
+            "genericSig": "<τ_0_0 where τ_0_0 : DigioCaptureKit.CameraEventListenerDelegate>",
+            "sugared_genericSig": "<Self where Self : DigioCaptureKit.CameraEventListenerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFaceDetected",
+            "printedName": "onFaceDetected(_:_:_:_:_:_:_:_:_:_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.NSNumber?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DigioCaptureKit@objc(pl)CameraEventListenerDelegate(im)onFaceDetected::::::::::::",
+            "mangledName": "$s15DigioCaptureKit27CameraEventListenerDelegateP14onFaceDetectedyySo6CGRectV_So8NSNumberCSgA8ISbSitF",
             "moduleName": "DigioCaptureKit",
             "genericSig": "<τ_0_0 where τ_0_0 : DigioCaptureKit.CameraEventListenerDelegate>",
             "sugared_genericSig": "<Self where Self : DigioCaptureKit.CameraEventListenerDelegate>",
@@ -6443,6 +8380,13 @@
             "mangledName": "$ss8CopyableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
       },
       {
         "kind": "Import",
@@ -7956,14 +9900,22 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "UIColor",
-                "printedName": "UIKit.UIColor",
-                "usr": "c:objc(cs)UIColor"
+                "name": "Optional",
+                "printedName": "UIKit.UIColor?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
             "usr": "c:@M@DigioCaptureKit@objc(cs)CameraView(im)setFaceDetectionStorkeColorFrom:",
-            "mangledName": "$s15DigioCaptureKit10CameraViewC27setFaceDetectionStorkeColor4fromySo7UIColorC_tF",
+            "mangledName": "$s15DigioCaptureKit10CameraViewC27setFaceDetectionStorkeColor4fromySo7UIColorCSg_tF",
             "moduleName": "DigioCaptureKit",
             "objc_name": "setFaceDetectionStorkeColorFrom:",
             "declAttributes": [
@@ -8026,6 +9978,65 @@
           },
           {
             "kind": "Function",
+            "name": "showFaceNotDetectedAnimation",
+            "printedName": "showFaceNotDetectedAnimation(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraView(im)showFaceNotDetectedAnimation:",
+            "mangledName": "$s15DigioCaptureKit10CameraViewC28showFaceNotDetectedAnimationyySbF",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setBottomSectorVisiblity",
+            "printedName": "setBottomSectorVisiblity(showBottomMessage:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraView(im)setBottomSectorVisiblityWithShowBottomMessage:",
+            "mangledName": "$s15DigioCaptureKit10CameraViewC24setBottomSectorVisiblity04showG7MessageySb_tF",
+            "moduleName": "DigioCaptureKit",
+            "objc_name": "setBottomSectorVisiblityWithShowBottomMessage:",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "setMinimumFaceSize",
             "printedName": "setMinimumFaceSize(_:)",
             "children": [
@@ -8044,6 +10055,64 @@
             "declKind": "Func",
             "usr": "c:@M@DigioCaptureKit@objc(cs)CameraView(im)setMinimumFaceSize:",
             "mangledName": "$s15DigioCaptureKit10CameraViewC18setMinimumFaceSizeyy12CoreGraphics7CGFloatVF",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setMotionVideoLength",
+            "printedName": "setMotionVideoLength(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraView(im)setMotionVideoLength:",
+            "mangledName": "$s15DigioCaptureKit10CameraViewC20setMotionVideoLengthyySiF",
+            "moduleName": "DigioCaptureKit",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setIsMotionSelfie",
+            "printedName": "setIsMotionSelfie(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraView(im)setIsMotionSelfie:",
+            "mangledName": "$s15DigioCaptureKit10CameraViewC17setIsMotionSelfieyySbF",
             "moduleName": "DigioCaptureKit",
             "declAttributes": [
               "Preconcurrency",
@@ -8179,13 +10248,20 @@
       },
       {
         "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "DigioCaptureKit",
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
       },
       {
         "kind": "Import",
@@ -8241,6 +10317,30 @@
       },
       {
         "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -8292,6 +10392,20 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "DigioCaptureKit"
       }
     ],
     "json_format_version": 8
@@ -8337,40 +10451,215 @@
       "kind": "FloatLiteral",
       "offset": 717,
       "length": 3,
-      "value": "0.5"
+      "value": "2.0"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
       "kind": "BooleanLiteral",
-      "offset": 763,
-      "length": 4,
-      "value": "true"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
-      "kind": "BooleanLiteral",
-      "offset": 814,
+      "offset": 809,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
       "kind": "IntegerLiteral",
-      "offset": 857,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
-      "kind": "IntegerLiteral",
-      "offset": 980,
+      "offset": 861,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
       "kind": "BooleanLiteral",
-      "offset": 888,
+      "offset": 1108,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1159,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1202,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1325,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/FaceAnalyzer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1233,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "FloatLiteral",
+      "offset": 233,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 270,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "FloatLiteral",
+      "offset": 378,
+      "length": 3,
+      "value": "1.4"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "FloatLiteral",
+      "offset": 412,
+      "length": 4,
+      "value": "80.0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 559,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 577,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 967,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1014,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1055,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1205,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1248,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1469,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1479,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1526,
+      "length": 3,
+      "value": "180"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1536,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1583,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1827,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1878,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1925,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "FloatLiteral",
+      "offset": 2050,
+      "length": 4,
+      "value": "0.98"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2231,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2282,
+      "length": 3,
+      "value": "360"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/FaceDetectionArcView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2327,
       "length": 5,
       "value": "false"
     },
@@ -8389,6 +10678,13 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/DigioFrameworkNavigationController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 442,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
       "kind": "StringLiteral",
       "offset": 179,
@@ -8400,7 +10696,7 @@
       "kind": "StringLiteral",
       "offset": 226,
       "length": 9,
-      "value": "\"#F4DFD0\""
+      "value": "\"#FFDEAE\""
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
@@ -8421,7 +10717,7 @@
       "kind": "StringLiteral",
       "offset": 355,
       "length": 9,
-      "value": "\"#E2F2D7\""
+      "value": "\"#D9FFCA\""
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
@@ -8467,10 +10763,45 @@
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
-      "kind": "FloatLiteral",
-      "offset": 754,
-      "length": 3,
-      "value": "1.0"
+      "kind": "StringLiteral",
+      "offset": 655,
+      "length": 9,
+      "value": "\"#191C22\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 698,
+      "length": 9,
+      "value": "\"#46464A\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 740,
+      "length": 9,
+      "value": "\"#005BC1\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 784,
+      "length": 11,
+      "value": "\"#99808080\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 834,
+      "length": 9,
+      "value": "\"#FFF6F6\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/Colors.swift",
+      "kind": "StringLiteral",
+      "offset": 886,
+      "length": 9,
+      "value": "\"#410003\""
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/controller\/ImageQualityController.swift",
@@ -8531,9 +10862,107 @@
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 299,
+      "offset": 344,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 382,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 420,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 467,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 525,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 577,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 654,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 700,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 741,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 793,
+      "length": 2,
+      "value": "63"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 796,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 810,
+      "length": 2,
+      "value": "81"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 813,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 826,
+      "length": 3,
+      "value": "181"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 830,
+      "length": 5,
+      "value": "255.0"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/KeyError.swift",
@@ -8676,6 +11105,13 @@
       "value": "1.0"
     },
     {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/face\/VideoWriter.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 28,
+      "value": "\"com.digio.videoWriterQueue\""
+    },
+    {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraGraphicView.swift",
       "kind": "BooleanLiteral",
       "offset": 285,
@@ -8685,9 +11121,51 @@
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraGraphicView.swift",
       "kind": "Array",
-      "offset": 440,
+      "offset": 444,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraGraphicView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 542,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraGraphicView.swift",
+      "kind": "StringLiteral",
+      "offset": 736,
+      "length": 35,
+      "value": "\"Place your face inside the circle\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraGraphicView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 817,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/PhotoReviewScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3188,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/PhotoReviewScreen.swift",
+      "kind": "FloatLiteral",
+      "offset": 4497,
+      "length": 4,
+      "value": "1.12"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/PhotoReviewScreen.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4534,
+      "length": 2,
+      "value": "14"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/CameraConstants.swift",
@@ -8739,6 +11217,20 @@
       "value": "10"
     },
     {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/PaddedLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 255,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/PaddedLabel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 293,
+      "length": 2,
+      "value": "16"
+    },
+    {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
       "kind": "StringLiteral",
       "offset": 178,
@@ -8763,36 +11255,22 @@
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
       "kind": "StringLiteral",
       "offset": 350,
-      "length": 18,
-      "value": "\"Capturing Selfie\""
+      "length": 12,
+      "value": "\"Keep Still\""
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
       "kind": "StringLiteral",
-      "offset": 404,
+      "offset": 398,
       "length": 16,
       "value": "\"Selfie Capture\""
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMessage.swift",
       "kind": "StringLiteral",
-      "offset": 460,
+      "offset": 454,
       "length": 25,
       "value": "\"Multiple faces detected\""
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraFlowCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 463,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraFlowCoordinator.swift",
-      "kind": "BooleanLiteral",
-      "offset": 516,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/qrcode\/QRCodeAnalyzer.swift",
@@ -8811,37 +11289,51 @@
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 240,
+      "offset": 540,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 278,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 632,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 675,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/CameraViewController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 717,
+      "offset": 582,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/BottomButtonClustor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 872,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/BottomButtonClustor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 907,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/BottomButtonClustor.swift",
+      "kind": "StringLiteral",
+      "offset": 1068,
+      "length": 16,
+      "value": "\"Capture Tapped\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/BottomButtonClustor.swift",
+      "kind": "StringLiteral",
+      "offset": 1123,
+      "length": 15,
+      "value": "\"Switch Tapped\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/BottomButtonClustor.swift",
+      "kind": "FloatLiteral",
+      "offset": 1213,
+      "length": 3,
+      "value": "0.1"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
@@ -8887,57 +11379,29 @@
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
-      "kind": "FloatLiteral",
-      "offset": 554,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
-      "kind": "FloatLiteral",
-      "offset": 574,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
-      "kind": "FloatLiteral",
-      "offset": 593,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
-      "kind": "FloatLiteral",
-      "offset": 613,
-      "length": 3,
-      "value": "1.0"
-    },
-    {
-      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "IntegerLiteral",
-      "offset": 721,
+      "offset": 635,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "IntegerLiteral",
-      "offset": 754,
+      "offset": 668,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "IntegerLiteral",
-      "offset": 788,
+      "offset": 702,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/ROI.swift",
       "kind": "IntegerLiteral",
-      "offset": 820,
+      "offset": 734,
       "length": 1,
       "value": "0"
     },
@@ -9047,6 +11511,13 @@
       "value": "\"INVALID_TORCH_LENS_USAGE\""
     },
     {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/DigioFrameworkBaseController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 460,
+      "length": 4,
+      "value": "true"
+    },
+    {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/enums\/CameraMode.swift",
       "kind": "StringLiteral",
       "offset": 153,
@@ -9082,6 +11553,34 @@
       "value": "\"video\""
     },
     {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/CaptureButtonView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 124,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/CaptureButtonView.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 15,
+      "value": "\"Capture Photo\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/CaptureButtonView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 214,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/CaptureButtonView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 260,
+      "length": 1,
+      "value": "0"
+    },
+    {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/analyzer\/frame\/FrameAnalyzer.swift",
       "kind": "IntegerLiteral",
       "offset": 292,
@@ -9115,6 +11614,104 @@
       "offset": 597,
       "length": 2,
       "value": "25"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/PermissionManager\/PermissionHelper.swift",
+      "kind": "BooleanLiteral",
+      "offset": 294,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/NetworkManager\/CameraNetworkManager.swift",
+      "kind": "Array",
+      "offset": 192,
+      "length": 303,
+      "value": "[\"DEEPFAKE_CHECK\", \"LIVELINESS_CHECK\", \"MULTI_FACE_CHECK\", \"FACE_COMPLETENESS_CHECK\", \"FACE_FULLY_VISIBLE\", \"BLUR_CHECK\", \"LIGHTING\", \"EYES_OPEN\", \"FACE_PROPORTION\", \"PROPER_CLOTHING\", \"AGE\", \"GENDER\"]"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/state\/CameraUIState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 163,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/state\/CameraUIState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 213,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/state\/CameraUIState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 269,
+      "length": 2,
+      "value": "63"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/state\/CameraUIState.swift",
+      "kind": "FloatLiteral",
+      "offset": 272,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/state\/CameraUIState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 286,
+      "length": 2,
+      "value": "81"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/state\/CameraUIState.swift",
+      "kind": "FloatLiteral",
+      "offset": 289,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/state\/CameraUIState.swift",
+      "kind": "IntegerLiteral",
+      "offset": 302,
+      "length": 3,
+      "value": "181"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/state\/CameraUIState.swift",
+      "kind": "FloatLiteral",
+      "offset": 306,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/state\/CameraUIState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 357,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/state\/CameraUIState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 408,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/state\/CameraUIState.swift",
+      "kind": "BooleanLiteral",
+      "offset": 465,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/state\/CameraUIState.swift",
+      "kind": "Array",
+      "offset": 529,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
@@ -9269,6 +11866,83 @@
       "offset": 2305,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2343,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/models\/CaptureOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2375,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/InstructionsModalView.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 31,
+      "value": "\"Adequate Lighting on the face\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/InstructionsModalView.swift",
+      "kind": "StringLiteral",
+      "offset": 225,
+      "length": 16,
+      "value": "\"d_instruction1\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/InstructionsModalView.swift",
+      "kind": "StringLiteral",
+      "offset": 274,
+      "length": 21,
+      "value": "\"No photo of a photo\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/InstructionsModalView.swift",
+      "kind": "StringLiteral",
+      "offset": 304,
+      "length": 16,
+      "value": "\"d_instruction2\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/InstructionsModalView.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 18,
+      "value": "\"No hats or masks\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/InstructionsModalView.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 16,
+      "value": "\"d_instruction3\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/InstructionsModalView.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 24,
+      "value": "\"Wear suitable clothing\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/InstructionsModalView.swift",
+      "kind": "StringLiteral",
+      "offset": 462,
+      "length": 16,
+      "value": "\"d_instruction4\""
+    },
+    {
+      "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/ui\/InstructionsModalView.swift",
+      "kind": "FloatLiteral",
+      "offset": 4399,
+      "length": 3,
+      "value": "0.1"
     }
   ]
 }
