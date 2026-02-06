@@ -3862,7 +3862,7 @@
           {
             "kind": "Function",
             "name": "present",
-            "printedName": "present(from:config:completion:onCancel:)",
+            "printedName": "present(from:config:completion:onCancel:onEvent:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3980,7 +3980,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "() -> ()",
+                "printedName": "(Foundation.NSString?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -3989,18 +3989,53 @@
                   },
                   {
                     "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSString?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSString",
+                        "printedName": "Foundation.NSString",
+                        "usr": "c:objc(cs)NSString"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSString?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
                     "name": "Void",
                     "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSString?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSString",
+                        "printedName": "Foundation.NSString",
+                        "usr": "c:objc(cs)NSString"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:config:completion:onCancel:",
-            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from6config10completion8onCancelySo16UIViewControllerC_AA0D6ConfigCSgySo8NSStringCSg_APSo7UIImageCSo10CLLocationCSgSo6CGRectVAPtcyyctFZ",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:config:completion:onCancel:onEvent:",
+            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from6config10completion8onCancel0J5EventySo16UIViewControllerC_AA0D6ConfigCSgySo8NSStringCSg_AQSo7UIImageCSo10CLLocationCSgSo6CGRectVAQtcyAQcyAQctFZ",
             "moduleName": "DigioCaptureKit",
             "static": true,
-            "objc_name": "presentFrom:config:completion:onCancel:",
+            "objc_name": "presentFrom:config:completion:onCancel:onEvent:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -4011,7 +4046,7 @@
           {
             "kind": "Function",
             "name": "present",
-            "printedName": "present(from:mode:config:completion:onCancel:)",
+            "printedName": "present(from:mode:config:completion:onCancel:onEvent:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4134,7 +4169,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "() -> ()",
+                "printedName": "(Foundation.NSString?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4143,18 +4178,53 @@
                   },
                   {
                     "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSString?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSString",
+                        "printedName": "Foundation.NSString",
+                        "usr": "c:objc(cs)NSString"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSString?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
                     "name": "Void",
                     "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSString?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSString",
+                        "printedName": "Foundation.NSString",
+                        "usr": "c:objc(cs)NSString"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:mode:config:completion:onCancel:",
-            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode6config10completion8onCancelySo16UIViewControllerC_SSAA0D6ConfigCSgySo8NSStringCSg_AQSo7UIImageCSo10CLLocationCSgSo6CGRectVAQtcyyctFZ",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:mode:config:completion:onCancel:onEvent:",
+            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode6config10completion8onCancel0K5EventySo16UIViewControllerC_SSAA0D6ConfigCSgySo8NSStringCSg_ARSo7UIImageCSo10CLLocationCSgSo6CGRectVARtcyARcyARctFZ",
             "moduleName": "DigioCaptureKit",
             "static": true,
-            "objc_name": "presentFrom:mode:config:completion:onCancel:",
+            "objc_name": "presentFrom:mode:config:completion:onCancel:onEvent:",
             "declAttributes": [
               "Final",
               "AccessControl",
@@ -4166,7 +4236,7 @@
           {
             "kind": "Function",
             "name": "present",
-            "printedName": "present(from:mode:isImagePreview:shouldShowSwitchCameraButton:token:baseUrl:isVideoMode:isInstruction:isLocation:isStateless:isMotionSelfie:livePhotoLength:logoUrl:completion:onCancel:)",
+            "printedName": "present(from:mode:isImagePreview:shouldShowSwitchCameraButton:token:baseUrl:isVideoMode:isInstruction:isLocation:isStateless:isMotionSelfie:livePhotoLength:logoUrl:completion:onCancel:onEvent:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -4341,7 +4411,7 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "() -> ()",
+                "printedName": "(Foundation.NSString?) -> ()",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -4350,18 +4420,53 @@
                   },
                   {
                     "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSString?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSString",
+                        "printedName": "Foundation.NSString",
+                        "usr": "c:objc(cs)NSString"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.NSString?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
                     "name": "Void",
                     "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.NSString?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "NSString",
+                        "printedName": "Foundation.NSString",
+                        "usr": "c:objc(cs)NSString"
+                      }
+                    ],
+                    "usr": "s:Sq"
                   }
                 ]
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:mode:isImagePreview:shouldShowSwitchCameraButton:token:baseUrl:isVideoMode:isInstruction:isLocation:isStateless:isMotionSelfie:livePhotoLength:logoUrl:completion:onCancel:",
-            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode14isImagePreview016shouldShowSwitchD6Button5token7baseUrl0I9VideoMode0I11Instruction0I8Location0I9Stateless0I12MotionSelfie15livePhotoLength04logoR010completion8onCancelySo16UIViewControllerC_SSS2bS2SS5bSiSSySo8NSStringCSg_AXSo7UIImageCSo10CLLocationCSgSo6CGRectVAXtcyyctFZ",
+            "usr": "c:@M@DigioCaptureKit@objc(cs)CameraLauncher(cm)presentFrom:mode:isImagePreview:shouldShowSwitchCameraButton:token:baseUrl:isVideoMode:isInstruction:isLocation:isStateless:isMotionSelfie:livePhotoLength:logoUrl:completion:onCancel:onEvent:",
+            "mangledName": "$s15DigioCaptureKit14CameraLauncherC7present4from4mode14isImagePreview016shouldShowSwitchD6Button5token7baseUrl0I9VideoMode0I11Instruction0I8Location0I9Stateless0I12MotionSelfie15livePhotoLength04logoR010completion8onCancel7onEventySo16UIViewControllerC_SSS2bS2SS5bSiSSySo8NSStringCSg_AYSo7UIImageCSo10CLLocationCSgSo6CGRectVAYtcyAYcyAYctFZ",
             "moduleName": "DigioCaptureKit",
             "static": true,
-            "objc_name": "presentFrom:mode:isImagePreview:shouldShowSwitchCameraButton:token:baseUrl:isVideoMode:isInstruction:isLocation:isStateless:isMotionSelfie:livePhotoLength:logoUrl:completion:onCancel:",
+            "objc_name": "presentFrom:mode:isImagePreview:shouldShowSwitchCameraButton:token:baseUrl:isVideoMode:isInstruction:isLocation:isStateless:isMotionSelfie:livePhotoLength:logoUrl:completion:onCancel:onEvent:",
             "declAttributes": [
               "Final",
               "AccessControl",
