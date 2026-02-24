@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		07kRpsHk0M8Xiv6G2770WsolmWg=
+		HqYVBiaOLlFyMfWHDy0ym5+8U2U=
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -74,19 +74,19 @@
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CXK/ByyHGlSdG/+yK78zpBK+AwM=
+		9C3gA34svFC6C2LQ3NX9Ix9AYsA=
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		HaBTD+XXgqy2iPKzuTuAHmnl3K8=
+		BsfWJfKfGOhANYbdAjEQI/BkUO4=
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CXK/ByyHGlSdG/+yK78zpBK+AwM=
+		9C3gA34svFC6C2LQ3NX9Ix9AYsA=
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		5usQLfA2oYXQXfu5xRi3l27TM4E=
+		/9GxOqFyqAzeiqegQdCQKgA5vys=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -247,28 +247,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			s+sZnlIyjOiVaosFCJLHyGmBnOLUDw9L5O3Gn0T2Yqg=
+			3NJiaR2uHsL2sgA+gUUcY1Nb3vKfa/BAYnDiXNjAB38=
 			</data>
 		</dict>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0/e9iMLpAzET+2WPRbuS0qXdQI4owQE4V5L0wv3iAd0=
+			u8RGA7UK4ol440YpvJpjq4PbblvZj4jXR+3nz1eb/Hs=
 			</data>
 		</dict>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s+sZnlIyjOiVaosFCJLHyGmBnOLUDw9L5O3Gn0T2Yqg=
+			3NJiaR2uHsL2sgA+gUUcY1Nb3vKfa/BAYnDiXNjAB38=
 			</data>
 		</dict>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LKYWvRNax7ywCSae88LfX3B/mMMABCBD12SiYgjSzhs=
+			Ur9+NNwtOoN0hHC6yLrp3Fjr3pTTSUBavH35UiUGp8g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
