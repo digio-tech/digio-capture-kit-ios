@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "DigioCaptureKit"
-    spec.version      = "2.0.3-beta.3"
+    spec.version      = "2.0.3-beta.4"
     spec.summary      = "The face detection's module for iOS with a lot of awesome features"
     spec.homepage     = "https://github.com/digio-tech/digio-capture-kit-ios"
     spec.license      = { :type => "BSD", :file => "LICENSE"}
@@ -12,8 +12,8 @@ Pod::Spec.new do |spec|
     spec.swift_version = "5.7.2"
     spec.static_framework = true
     spec.vendored_frameworks = 'DigioCaptureKit.xcframework'
-#     spec.dependency 'GoogleMLKit/FaceDetection'
-    spec.dependency 'GoogleMLKit/FaceDetection', '~> 6.0'
+    spec.dependency 'GoogleMLKit/FaceDetection'
+#     spec.dependency 'GoogleMLKit/FaceDetection', '~> 6.0'
 #     spec.dependency 'GoogleMLKit/FaceDetection', '>= 7.0'
 
     spec.pod_target_xcconfig = {
