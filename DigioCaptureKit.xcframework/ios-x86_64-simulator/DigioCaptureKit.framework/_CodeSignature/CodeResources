@@ -18,7 +18,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		nHZSvRiJ4xRZnHsE4vLypn/wnXo=
+		d6inrzbaQioFf7xGzyL9rTsgWDc=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		o5QjvvdEPA1MeFN7BvumQ4bX4Jo=
+		HqYVBiaOLlFyMfWHDy0ym5+8U2U=
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -74,19 +74,19 @@
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		yP19szV2/UVC+XZdULjC2177kTI=
+		9C3gA34svFC6C2LQ3NX9Ix9AYsA=
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		eyEB7I5OFqNQSDJ7xBqID5cQmgk=
+		BsfWJfKfGOhANYbdAjEQI/BkUO4=
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yP19szV2/UVC+XZdULjC2177kTI=
+		9C3gA34svFC6C2LQ3NX9Ix9AYsA=
 		</data>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		w3hEAWXExPo7j0r6L3sD2Oak2N0=
+		/9GxOqFyqAzeiqegQdCQKgA5vys=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -156,7 +156,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			YVw0PO3+wxuBHsVRu6bBf0QZMIrFEbir0qr8jojCF/Q=
+			IQOkVQEhSANB2dH90GdCabmyAsq67wq6+E2zzUY9Hm4=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -247,28 +247,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ivI/nW03dWNr3qpKloUuQDYJv1POLeWWPE2SAGtnLpQ=
+			3NJiaR2uHsL2sgA+gUUcY1Nb3vKfa/BAYnDiXNjAB38=
 			</data>
 		</dict>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6ApGfppMzQLcuwcTFmiBYQg+jwW5bxyHraumQsuI4Fs=
+			u8RGA7UK4ol440YpvJpjq4PbblvZj4jXR+3nz1eb/Hs=
 			</data>
 		</dict>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ivI/nW03dWNr3qpKloUuQDYJv1POLeWWPE2SAGtnLpQ=
+			3NJiaR2uHsL2sgA+gUUcY1Nb3vKfa/BAYnDiXNjAB38=
 			</data>
 		</dict>
 		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D1SOuecerUEIfuTQq/u71I8Ti5NuYCDmxfdzK/7HooM=
+			Ur9+NNwtOoN0hHC6yLrp3Fjr3pTTSUBavH35UiUGp8g=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
