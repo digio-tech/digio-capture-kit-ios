@@ -20,3 +20,4 @@ Pod::Spec.new do |spec|
          'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
 end
+
