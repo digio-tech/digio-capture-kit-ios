@@ -1,13 +1,13 @@
 Pod::Spec.new do |spec|
 
     spec.name         = "DigioCaptureKit"
-    spec.version      = "2.0.3-beta.11"
+    spec.version      = "2.0.3-beta.12"
     spec.summary      = "The face detection's module for iOS with a lot of awesome features"
     spec.homepage     = "https://github.com/digio-tech/digio-capture-kit-ios"
     spec.license      = { :type => "BSD", :file => "LICENSE"}
     spec.authors      = { "Akash Kumar" => "akash.kumar@digio.in" }
     spec.platform     = :ios
-    spec.ios.deployment_target = "15.1"
+    spec.ios.deployment_target = "15.6"
     spec.source       = { :git => "https://github.com/digio-tech/digio-capture-kit-ios.git", :tag => "#{spec.version}" }
     spec.swift_version = "5.7.2"
     spec.static_framework = true
@@ -16,7 +16,10 @@ Pod::Spec.new do |spec|
 #     spec.dependency 'GoogleMLKit/FaceDetection', '~> 6.0'
     spec.dependency 'GoogleMLKit/FaceDetection', '8.0.0'
 #     spec.dependency 'GoogleMLKit/FaceDetection', '>= 7.0'
-#     spec.dependency 'PromisesObjC', '~> 2.4'
+
+    spec.dependency 'PromisesObjC', '~> 2.4'
+    spec.dependency 'GoogleDataTransport'
+    spec.dependency 'GTMSessionFetcher'
     spec.pod_target_xcconfig = {
          'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
     }
