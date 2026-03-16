@@ -43,8 +43,6 @@ Pod::Spec.new do |s|
   s.swift_version = "5.7.2"
 
   s.static_framework = true
-
-  # Default subspec
   s.default_subspec = 'Core'
 
   # Core SDK (no MLKit dependency)
@@ -58,7 +56,7 @@ Pod::Spec.new do |s|
   # Face Detection feature
   s.subspec 'FaceDetection' do |fd|
     fd.vendored_frameworks = 'DigioCaptureKit.xcframework'
-
+   #version fixed to support older version of ios 15.1
     fd.dependency 'GoogleMLKit/FaceDetection', '>= 6.0'
     fd.dependency 'PromisesObjC', '~> 2.4'
     fd.dependency 'GTMSessionFetcher'
