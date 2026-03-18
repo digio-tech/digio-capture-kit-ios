@@ -29,7 +29,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DigioCaptureKit"
-  s.version      = "2.0.3-beta.21"
+  s.version      = "2.0.3-beta.22"
   s.summary      = "Face detection module for iOS"
   s.homepage     = "https://github.com/digio-tech/digio-capture-kit-ios"
   s.license      = { :type => "BSD", :file => "LICENSE"}
@@ -43,23 +43,25 @@ Pod::Spec.new do |s|
   s.swift_version = "5.7.2"
 
   s.static_framework = true
+ # Adding to reduce size
+  s.resource_bundles = { 'DigioCaptureKitResources' => ['Resources/*'] }
   s.default_subspec = 'Core'
+  s.vendored_frameworks = 'DigioCaptureKit.xcframework'
 
   # Core SDK (no MLKit dependency)
   s.subspec 'Core' do |core|
-    core.vendored_frameworks = 'DigioCaptureKit.xcframework'
-
+#     core.vendored_frameworks = 'DigioCaptureKit.xcframework'
     core.dependency 'PromisesObjC', '~> 2.4'
     core.dependency 'GTMSessionFetcher'
   end
 
   # Face Detection feature
   s.subspec 'FaceDetection' do |fd|
-    fd.vendored_frameworks = 'DigioCaptureKit.xcframework'
+#     fd.vendored_frameworks = 'DigioCaptureKit.xcframework'
    #version fixed to support older version of ios 15.1
     fd.dependency 'GoogleMLKit/FaceDetection', '>= 6.0'
-    fd.dependency 'PromisesObjC', '~> 2.4'
-    fd.dependency 'GTMSessionFetcher'
+#     fd.dependency 'PromisesObjC', '~> 2.4'
+#     fd.dependency 'GTMSessionFetcher'
   end
 
   s.pod_target_xcconfig = {
