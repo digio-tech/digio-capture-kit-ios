@@ -11277,7 +11277,7 @@
       "kind": "StringLiteral",
       "offset": 150,
       "length": 7,
-      "value": "\"1.0.1\""
+      "value": "\"2.0.4\""
     },
     {
       "filePath": "\/Users\/akash\/Digio_Projects\/iOSCameraFramework\/digio-capture-kit-ios\/DigioCaptureKit\/DigiCamera\/utils\/CameraConstants.swift",
