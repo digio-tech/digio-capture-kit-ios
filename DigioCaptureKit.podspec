@@ -29,7 +29,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DigioCaptureKit"
-  s.version      = "2.0.4"
+  s.version      = "2.0.4-beta.1"
   s.summary      = "Face detection module for iOS"
   s.homepage     = "https://github.com/digio-tech/digio-capture-kit-ios"
   s.license      = { :type => "BSD", :file => "LICENSE"}
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
  # Adding to reduce size
-  s.resource_bundles = { 'DigioCaptureKitResources' => ['Resources/*'] }
+#   s.resource_bundles = { 'DigioCaptureKitResources' => ['Resources/*'] }
   s.default_subspec = 'Core'
   s.vendored_frameworks = 'DigioCaptureKit.xcframework'
 
