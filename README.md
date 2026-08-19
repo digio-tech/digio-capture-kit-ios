@@ -52,7 +52,6 @@ dependencies: [
     )
 ]
 ```
-
 And add the product to your target:
 
 ```swift
