@@ -15,8 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "DigioCaptureKit",
-            url: "https://github.com/digio-tech/digio-capture-kit-ios/releases/download/2.0.5/DigioCaptureKit.xcframework.zip",
-            checksum: "76ca1874246a941e45b6f75ec406cdd2598dd28ae7974cf2059174ec60b416dc"
+            url: "https://github.com/digio-tech/digio-capture-kit-ios/releases/download/2.0.6/DigioCaptureKit.xcframework.zip",
+            checksum: "bbba8c0a02aad495d46e491ebfacd4586ee931e5de92bd6442053ad145030402"
         )
     ]
 )
