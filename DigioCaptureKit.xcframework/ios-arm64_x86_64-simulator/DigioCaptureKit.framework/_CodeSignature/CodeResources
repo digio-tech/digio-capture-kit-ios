@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DigioCaptureKit-Swift.h</key>
 		<data>
-		VKNhhKlLEz4Insd0VHViIUsrJxA=
+		uSXSLasuqkO0cjB2tUl5P0fXlhc=
 		</data>
 		<key>Headers/DigioCaptureKit.h</key>
 		<data>
@@ -14,27 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		tnelIIL4vVr5ZFV966kxYlmhEco=
+		MXqec7ONsdRhgPdolqbDrImCPVI=
 		</data>
-		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
 		9lyp8gLX+yn3EKVw9ACjcvTdgiA=
 		</data>
-		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		j9eVhD0FTYYWTlcHVXgTpH7eRKw=
+		YJWA19mo0zG2C1Ow60cN9UpA2DA=
 		</data>
-		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		rjJyhg8O4KL6t16a8HViy24TOfI=
+		EBM9rA5AyRdgM9lhfgzQb+t2IHk=
 		</data>
-		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		j9eVhD0FTYYWTlcHVXgTpH7eRKw=
+		YJWA19mo0zG2C1Ow60cN9UpA2DA=
 		</data>
-		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sP+EeasXEdF72iiDxGC/GomOYLY=
+		e9tZqFu5XOpwQmCAJL5HHdxDNbY=
+		</data>
+		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		9lyp8gLX+yn3EKVw9ACjcvTdgiA=
+		</data>
+		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		ZHBhZosFMQcM9DG9OmoSgVcQuVo=
+		</data>
+		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<data>
+		HxNVQPY42Tl9upZqHRmiSbRFBGw=
+		</data>
+		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<data>
+		ZHBhZosFMQcM9DG9OmoSgVcQuVo=
+		</data>
+		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<data>
+		Nd7lIIwq2aDyKkhbeMq8QAPhcnk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -83,7 +103,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S9MWhVAujKU3tM2nSQqGNm17JD0ueGJrOSREhmyKmpk=
+			OCFnTnpTkbUjyG5zhOPYOAhLPxobveqM4y/Hgaq55IM=
 			</data>
 		</dict>
 		<key>Headers/DigioCaptureKit.h</key>
@@ -93,39 +113,74 @@
 			b1IuA+qKcoiYDWQJ9yg8xVQdWNWipI5B6CGKwRF0dOk=
 			</data>
 		</dict>
-		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.abi.json</key>
+		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
 			5RJGBLRjZ8DBT7vusdFKlvoq2XfXAp5uA5S1BUjfJhI=
 			</data>
 		</dict>
-		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lepYgPbO3pMwmE10EduLfEMG8xhw06jr4Ue5QWJBaA4=
+			581ZYjoeKQq3/qpzvA8fs1MYQsrI2B6RiibbZnqh/Yw=
 			</data>
 		</dict>
-		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AQBXIhtCZtilSmgy0kbm7DWxaalhgGTp351UO/1b9tM=
+			VVg3wgkErUHgLXeeEztg1nItncPRuN6U5Vnvf8p94Uo=
 			</data>
 		</dict>
-		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			lepYgPbO3pMwmE10EduLfEMG8xhw06jr4Ue5QWJBaA4=
+			581ZYjoeKQq3/qpzvA8fs1MYQsrI2B6RiibbZnqh/Yw=
 			</data>
 		</dict>
-		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<key>Modules/DigioCaptureKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V9neKQJzqKoV6y2lzrp7wOcQz0+qFlx3KspuYOOMmB4=
+			sBSAOmEBL3S/1+FF/kpjmE6qWPAr9ojc6chFb+GTuIY=
+			</data>
+		</dict>
+		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5RJGBLRjZ8DBT7vusdFKlvoq2XfXAp5uA5S1BUjfJhI=
+			</data>
+		</dict>
+		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V7c6SHmkPCTf6024ziRyeuuqbz0lz8LO2HCXOHJ6XFw=
+			</data>
+		</dict>
+		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			kE4Vwcmr6kkrWnqrGnk11keTNs2bZ/EcjRz5Pwm3mZo=
+			</data>
+		</dict>
+		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V7c6SHmkPCTf6024ziRyeuuqbz0lz8LO2HCXOHJ6XFw=
+			</data>
+		</dict>
+		<key>Modules/DigioCaptureKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5+NmMVL+n+ck0Tak6PXt8RxvLaxvX8i3sPbtakafdG0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
