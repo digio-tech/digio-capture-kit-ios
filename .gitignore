@@ -1,0 +1,10 @@
+# Build outputs — distributed via GitHub Release assets, not tracked in git
+DigioCaptureKit.xcframework/
+DigioCaptureKit.xcframework.zip
+DigioCaptureKit_dSYMs.zip
+
+# macOS
+.DS_Store
+
+# JetBrains
+.idea/
