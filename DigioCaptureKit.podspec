@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DigioCaptureKit"
-  s.version      = "2.0.7"
+  s.version      = "2.0.8"
   s.summary      = "Face detection module for iOS"
   s.homepage     = "https://github.com/digio-tech/digio-capture-kit-ios"
   s.license      = { :type => "BSD", :file => "LICENSE" }
